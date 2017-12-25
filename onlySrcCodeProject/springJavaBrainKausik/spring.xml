@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:context="http://www.springframework.org/schema/context"
+    xsi:schemaLocation="http://www.springframework.org/schema/beans
+    http://www.springframework.org/schema/beans/spring-beans-3.0.xsd
+    http://www.springframework.org/schema/context
+    http://www.springframework.org/schema/context/spring-context-3.0.xsd">
+
+   <context:annotation-config/>
+   <context:component-scan base-package="kejriwal.prectice"></context:component-scan>
+	<!-- <bean id="triangle" class="kejriwal.prectice.Triangle" name="triangle-name">
+
+		<property name="type1" value="equilateral" />
+		<constructor-arg value="equi" type="String"/>
+		<constructor-arg value="20" index="0" />
+		
+		<property name="pointA" ref="pointA"></property>
+		<property name="pointB" ref="pointB"></property>
+		<property name="pointC" ref="pointC"></property>
+		
+		<property name="points">
+			<list>
+				<ref bean="pointA" />
+				<ref bean="pointB" />
+				<ref bean="pointC" />
+			</list>
+		</property>
+
+	</bean> -->
+	
+	
+	<!-- <bean id="triangle" class="kejriwal.prectice.Triangle" name="triangle-name" autowire="byName">
+	</bean> -->
+	
+	<bean id="triangle1" class="kejriwal.prectice.Triangle">
+		<property name="pointA" ref="pointA"></property>
+	</bean> 
+	
+	<!-- <bean id="triangle2" class="kejriwal.prectice.Triangle" parent="triangle1" init-method="myInit" destroy-method="myDestroy" >
+		<property name="pointB" ref="pointB"></property>
+		<property name="pointC" ref="pointC"></property>
+	</bean> -->
+	
+	<bean id="triangle2" class="kejriwal.prectice.Triangle" parent="triangle1">
+		<property name="pointB" ref="pointB"></property>
+		<property name="pointC" ref="pointC"></property>
+	</bean>
+	
+	<bean id="triangle3" class="kejriwal.prectice.Triangle" parent="triangle2" scope="singleton">  
+		<property name="pointB" ref="pointTest"></property>
+	</bean> 
+	
+<!-- 	<bean id="circle" class="kejriwal.prectice.Circle">   -->
+<!-- 		<property name="center" ref="pointA"></property> -->
+<!-- 	</bean> -->
+	
+
+	 <bean id="pointA" class="kejriwal.prectice.Point" scope="prototype">
+		<qualifier value="circleRelated"></qualifier>
+		<property name="x" value="${pointA.x}"></property>
+		<property name="y" value="${pointA.y}"></property>		
+	</bean> 
+	
+	 <bean id="pointB" class="kejriwal.prectice.Point">
+		<property name="x" value="0"></property>
+		<property name="y" value="20"></property>		
+	</bean> 
+	
+	 <bean id="pointC" class="kejriwal.prectice.Point">
+		<property name="x" value="20"></property>
+		<property name="y" value="0"></property>		
+	</bean> 
+	
+	<bean id="pointTest" class="kejriwal.prectice.Point">
+		<property name="x" value="100"></property>
+		<property name="y" value="100"></property>		
+	</bean> 
+	
+	<bean id="center" class="kejriwal.prectice.Point">
+		<property name="x" value="200"></property>
+		<property name="y" value="200"></property>		
+	</bean>
+	
+	<alias name="triangle" alias="triangle-alias" />
+	<alias name="triangle" alias="triangle-alias2" />
+<!-- 	<alias name="triangle2" alias="shape" />  -->
+	<alias name="circle" alias="shape" />
+	
+<!-- 	<bean class="kejriwal.prectice.DisplayNameBeanPostProcessor"/> -->
+<!-- 	<bean class="kejriwal.prectice.DisplayNameBeanFactoryPostProcessor"/> -->
+	
+	<bean class="org.springframework.beans.factory.config.PropertyPlaceholderConfigurer" >
+		<property name="locations" value="base_en.properties" />
+ 	</bean>
+ 	
+<!--  	<bean class="org.springframework.beans.factory.annotation.RequiredAnnotationBeanPostProcessor"> -->
+<!--  	</bean> -->
+<!--  	<bean class="org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor"> -->
+<!--  	</bean> -->
+ 	
+ 	<bean id="messageSource"
+	class="org.springframework.context.support.ResourceBundleMessageSource">
+		<property name="basenames">
+			<list>
+				<value>myMessages</value>
+			</list>
+		</property>
+	</bean>
+
+</beans>
