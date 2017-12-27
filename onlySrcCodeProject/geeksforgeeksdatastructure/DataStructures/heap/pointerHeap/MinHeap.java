@@ -1,9 +1,9 @@
-package DataStructures.heap.pointerHeap;
+package onlySrcCode.onlySrcCodeProject.geeksforgeeksdatastructure.DataStructures.heap.pointerHeap;
 
-import DataStructures.binaryTree.Comparable;
-import DataStructures.commonNodeDS.DoublyNode;
-import DataStructures.commonNodeDS.Space;
-import DataStructures.queue.linkedListImpl.Queue;
+import onlySrcCode.onlySrcCodeProject.geeksforgeeksdatastructure.DataStructures.binaryTree.Comparable;
+import onlySrcCode.onlySrcCodeProject.geeksforgeeksdatastructure.DataStructures.commonNodeDS.DoublyNode;
+import onlySrcCode.onlySrcCodeProject.geeksforgeeksdatastructure.DataStructures.commonNodeDS.Space;
+import onlySrcCode.onlySrcCodeProject.geeksforgeeksdatastructure.DataStructures.queue.linkedListImpl.Queue;
 
 public class MinHeap <E extends Comparable<E>>{
 	private DoublyNode<E> root;

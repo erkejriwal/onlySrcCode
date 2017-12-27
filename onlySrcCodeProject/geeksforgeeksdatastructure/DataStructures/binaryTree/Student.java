@@ -1,4 +1,4 @@
-package DataStructures.binaryTree;
+package onlySrcCode.onlySrcCodeProject.geeksforgeeksdatastructure.DataStructures.binaryTree;
 
 public class Student implements Comparable<Student>{
 	private int id;

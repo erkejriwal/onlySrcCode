@@ -1,4 +1,4 @@
-package companies.goldmenSach;
+package onlySrcCode.onlySrcCodeProject.geeksforgeeksdatastructure.companies.goldmenSach;
 
 import java.util.ArrayList;
 import java.util.HashMap;
@@ -24,7 +24,7 @@ public class carrerCupQuestions {
 	 * movement instruction consisting of the letters 1 and r , where 1 is an
 	 * instruction to move one step left and r is an instruction to move one
 	 * step right. Jamie followed the instructions in s one by one and in order
-	 * .For Example if s=‘rrlr’,she performs the following sequence of moves
+	 * .For Example if s=ï¿½rrlrï¿½,she performs the following sequence of moves
 	 * :one step right ->one step right ->one step left -> one step right .Jamie
 	 * wants to move from point x to point y following some subsequence of
 	 * string s instruction and wonders how many distinct possible subsequence
@@ -35,8 +35,8 @@ public class carrerCupQuestions {
 	 * it has four parameters A String , s giving a sequence of eduction using
 	 * the characters l( i.e. move left one unit ) and r (i.e. move right one
 	 * unit) An integer n, denoting the length of the number line. An integer x,
-	 * denoting jamie’s starting point on the number line An integer y ,
-	 * denoting Jamie’s enidng point on the number line. The function must
+	 * denoting jamieï¿½s starting point on the number line An integer y ,
+	 * denoting Jamieï¿½s enidng point on the number line. The function must
 	 * return an integer denoting the total number of distinct subsequence of
 	 * string s that will lead Jamie from point x to point y as this value cab
 	 * be quite large .

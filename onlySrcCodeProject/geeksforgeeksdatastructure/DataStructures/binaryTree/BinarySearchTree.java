@@ -1,7 +1,7 @@
-package DataStructures.binaryTree;
+package onlySrcCode.onlySrcCodeProject.geeksforgeeksdatastructure.DataStructures.binaryTree;
 
-import DataStructures.queue.linkedListImpl.Queue;
-import DataStructures.stack.singlyLinkListStack.Stack;
+import onlySrcCode.onlySrcCodeProject.geeksforgeeksdatastructure.DataStructures.queue.linkedListImpl.Queue;
+import onlySrcCode.onlySrcCodeProject.geeksforgeeksdatastructure.DataStructures.stack.singlyLinkListStack.Stack;
 
 public class BinarySearchTree<E extends Comparable<E>> {
 	private Node<E> root;

@@ -1,4 +1,4 @@
-package companies.samsung;
+package onlySrcCode.onlySrcCodeProject.geeksforgeeksdatastructure.companies.samsung;
 
 //Java Program to show segment tree operations like construction,
 //query and update

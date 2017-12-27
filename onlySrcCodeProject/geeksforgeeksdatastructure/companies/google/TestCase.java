@@ -1,4 +1,4 @@
-package companies.google;
+package onlySrcCode.onlySrcCodeProject.geeksforgeeksdatastructure.companies.google;
 
 import java.util.ArrayList;
 

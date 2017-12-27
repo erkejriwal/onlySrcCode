@@ -1,4 +1,4 @@
-package companies.techgig;
+package onlySrcCode.onlySrcCodeProject.geeksforgeeksdatastructure.companies.techgig;
 
 import java.util.Arrays;
 import java.util.HashMap;

@@ -1,4 +1,4 @@
-package DataStructures.btree;
+package onlySrcCode.onlySrcCodeProject.geeksforgeeksdatastructure.DataStructures.btree;
 
 public class BTreeNode {
 	private int[] data;

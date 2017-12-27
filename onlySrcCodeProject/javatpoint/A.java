@@ -1,4 +1,4 @@
-package javatpoint;
+package onlySrcCode.onlySrcCodeProject.javatpoint;
 
 public class A {
 	

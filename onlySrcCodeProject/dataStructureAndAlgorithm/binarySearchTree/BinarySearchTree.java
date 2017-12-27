@@ -1,4 +1,4 @@
-package binarySearchTree;
+package onlySrcCode.onlySrcCodeProject.dataStructureAndAlgorithm.binarySearchTree;
 
 public class BinarySearchTree {
 	private TreeNode root;

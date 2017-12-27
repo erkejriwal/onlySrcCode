@@ -1,4 +1,4 @@
-package javapractice.javaadvanced;
+package onlySrcCode.onlySrcCodeProject.javapractice.javaadvanced;
 
 import java.applet.*;
 import java.awt.*;

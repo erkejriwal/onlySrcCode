@@ -1,4 +1,4 @@
-package DataStructures.advacedLists.XorDllNotPossibleInJava;
+package onlySrcCode.onlySrcCodeProject.geeksforgeeksdatastructure.DataStructures.advacedLists.XorDllNotPossibleInJava;
 
 public class XorDLLNode {
 	private int data;

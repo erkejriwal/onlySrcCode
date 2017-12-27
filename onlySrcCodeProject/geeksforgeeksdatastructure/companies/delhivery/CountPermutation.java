@@ -1,4 +1,4 @@
-package companies.delhivery;
+package onlySrcCode.onlySrcCodeProject.geeksforgeeksdatastructure.companies.delhivery;
 
 import java.util.Scanner;
 

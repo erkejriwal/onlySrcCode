@@ -1,4 +1,4 @@
-package companies.aristocrat;
+package onlySrcCode.onlySrcCodeProject.geeksforgeeksdatastructure.companies.aristocrat;
 
 import java.util.Scanner;
 

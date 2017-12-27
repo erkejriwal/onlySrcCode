@@ -1,4 +1,4 @@
-package DataStructures.mathRelatedQuestions;
+package onlySrcCode.onlySrcCodeProject.geeksforgeeksdatastructure.DataStructures.mathRelatedQuestions;
 
 public class PrimeNoForSeriesOfNos {
 

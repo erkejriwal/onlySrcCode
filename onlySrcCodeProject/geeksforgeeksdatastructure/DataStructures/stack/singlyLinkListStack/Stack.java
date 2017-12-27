@@ -1,4 +1,4 @@
-package DataStructures.stack.singlyLinkListStack;
+package onlySrcCode.onlySrcCodeProject.geeksforgeeksdatastructure.DataStructures.stack.singlyLinkListStack;
 
 
 public class Stack<E> {

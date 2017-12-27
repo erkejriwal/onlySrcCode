@@ -1,4 +1,4 @@
-package algorithm;
+package onlySrcCode.onlySrcCodeProject.geeksforgeeksdatastructure.algorithm;
 
 import java.util.Collection;
 import java.util.Collections;

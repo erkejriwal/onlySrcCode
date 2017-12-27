@@ -1,4 +1,4 @@
-package DataStructures.mathRelatedQuestions;
+package onlySrcCode.onlySrcCodeProject.geeksforgeeksdatastructure.DataStructures.mathRelatedQuestions;
 
 /**
  * this class is created to calculate one no is prime or not 

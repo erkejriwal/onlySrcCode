@@ -1,4 +1,4 @@
-package javatpoint;
+package onlySrcCode.onlySrcCodeProject.javatpoint;
 
 public class Test {
 	public static void main(String args[]) {

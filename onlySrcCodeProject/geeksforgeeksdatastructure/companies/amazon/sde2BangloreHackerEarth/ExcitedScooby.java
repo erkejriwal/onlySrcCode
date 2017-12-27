@@ -1,4 +1,4 @@
-package companies.amazon.sde2BangloreHackerEarth;
+package onlySrcCode.onlySrcCodeProject.geeksforgeeksdatastructure.companies.amazon.sde2BangloreHackerEarth;
 
 import java.util.Scanner;
 

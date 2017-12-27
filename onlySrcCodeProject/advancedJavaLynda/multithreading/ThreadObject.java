@@ -1,4 +1,4 @@
-package advancedJavaLynda.multithreading;
+package onlySrcCode.onlySrcCodeProject.advancedJavaLynda.multithreading;
 
 /**
  * this is a class to implement synchronization in multi threading locking

@@ -1,4 +1,4 @@
-package advancedJavaLynda.data;
+package onlySrcCode.onlySrcCodeProject.advancedJavaLynda.data;
 
 public enum OliveName {
 	A("olive-A"),B("olive-B"),C("olive-C"),D("olive-D"),E,F,G,H;

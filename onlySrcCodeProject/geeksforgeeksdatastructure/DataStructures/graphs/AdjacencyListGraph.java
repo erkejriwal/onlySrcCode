@@ -1,4 +1,4 @@
-package DataStructures.graphs;
+package onlySrcCode.onlySrcCodeProject.geeksforgeeksdatastructure.DataStructures.graphs;
 
 import java.util.LinkedList;
 

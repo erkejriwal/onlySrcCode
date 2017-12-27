@@ -1,4 +1,4 @@
-package companies.samsung;
+package onlySrcCode.onlySrcCodeProject.geeksforgeeksdatastructure.companies.samsung;
 
 import java.util.ArrayList;
 import java.util.Arrays;

@@ -1,4 +1,4 @@
-package main;
+package onlySrcCode.onlySrcCodeProject.hibernateProject.main;
 
 import java.util.List;
 
@@ -12,11 +12,11 @@ import org.hibernate.criterion.Projections;
 import org.hibernate.criterion.Restrictions;
 import org.hibernate.query.Query;
 
-import data.Address;
-import data.FourWheeler;
-import data.TwoWheeler;
-import data.User;
-import data.Vehicle;
+import onlySrcCode.onlySrcCodeProject.hibernateProject.data.Address;
+import onlySrcCode.onlySrcCodeProject.hibernateProject.data.FourWheeler;
+import onlySrcCode.onlySrcCodeProject.hibernateProject.data.TwoWheeler;
+import onlySrcCode.onlySrcCodeProject.hibernateProject.data.User;
+import onlySrcCode.onlySrcCodeProject.hibernateProject.data.Vehicle;
 
 public class Main {
 

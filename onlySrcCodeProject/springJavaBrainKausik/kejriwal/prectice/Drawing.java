@@ -1,4 +1,4 @@
-package kejriwal.prectice;
+package onlySrcCode.onlySrcCodeProject.springJavaBrainKausik.kejriwal.prectice;
 
 import org.springframework.beans.factory.BeanFactory;
 import org.springframework.beans.factory.xml.XmlBeanFactory;

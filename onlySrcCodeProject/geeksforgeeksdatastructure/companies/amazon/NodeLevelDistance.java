@@ -1,4 +1,4 @@
-package companies.amazon;
+package onlySrcCode.onlySrcCodeProject.geeksforgeeksdatastructure.companies.amazon;
 
 public class NodeLevelDistance {
 	private int level;

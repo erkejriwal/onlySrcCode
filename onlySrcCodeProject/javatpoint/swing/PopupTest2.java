@@ -1,4 +1,4 @@
-package javatpoint.swing;
+package onlySrcCode.onlySrcCodeProject.javatpoint.swing;
 import sun.swing.*;
 
 import java.awt.BorderLayout;
@@ -63,7 +63,8 @@ public class PopupTest2 {
             @Override
             public void mouseClicked(MouseEvent e) {
                 if (e.getButton() == MouseEvent.BUTTON3) {
-                   MenuItemLayoutHelper.clearUsedClientProperties(c);clearUsedClientProperties(itemPanel);
+                  // MenuItemLayoutHelper.clearUsedClientProperties(c);
+                   //clearUsedClientProperties(itemPanel);
                     itemPanel.revalidate();
                     menu.show(panel, (int) (e.getX() - menu.getPreferredSize().getWidth()), e.getY());
                 }

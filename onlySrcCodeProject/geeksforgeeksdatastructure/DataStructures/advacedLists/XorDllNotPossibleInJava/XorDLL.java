@@ -1,4 +1,4 @@
-package DataStructures.advacedLists.XorDllNotPossibleInJava;
+package onlySrcCode.onlySrcCodeProject.geeksforgeeksdatastructure.DataStructures.advacedLists.XorDllNotPossibleInJava;
 /**
  *No, you can't do this in Java at all -- you cannot get the address 
  *of an object or compute a reference to an object from other values. 

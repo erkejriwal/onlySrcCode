@@ -1,4 +1,4 @@
-package companies.amazon.test;
+package onlySrcCode.onlySrcCodeProject.geeksforgeeksdatastructure.companies.amazon.test;
 
 import java.util.*;
 

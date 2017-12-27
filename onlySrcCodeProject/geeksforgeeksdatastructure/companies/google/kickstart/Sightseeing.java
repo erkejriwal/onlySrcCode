@@ -1,4 +1,4 @@
-package companies.google.kickstart;
+package onlySrcCode.onlySrcCodeProject.geeksforgeeksdatastructure.companies.google.kickstart;
 
 import java.util.HashMap;
 import java.util.Scanner;

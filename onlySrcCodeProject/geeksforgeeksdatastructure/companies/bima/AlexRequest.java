@@ -1,4 +1,4 @@
-package companies.bima;
+package onlySrcCode.onlySrcCodeProject.geeksforgeeksdatastructure.companies.bima;
 
 import java.util.Arrays;
 import java.util.Scanner;

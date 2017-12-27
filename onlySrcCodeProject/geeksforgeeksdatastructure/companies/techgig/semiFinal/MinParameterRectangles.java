@@ -1,4 +1,4 @@
-package companies.techgig.semiFinal;
+package onlySrcCode.onlySrcCodeProject.geeksforgeeksdatastructure.companies.techgig.semiFinal;
 
 import java.util.Iterator;
 import java.util.LinkedList;

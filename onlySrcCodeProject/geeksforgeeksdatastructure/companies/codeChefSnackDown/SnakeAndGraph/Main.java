@@ -1,4 +1,4 @@
-package companies.codeChefSnackDown.SnakeAndGraph;
+package onlySrcCode.onlySrcCodeProject.geeksforgeeksdatastructure.companies.codeChefSnackDown.SnakeAndGraph;
 
 import java.util.LinkedList;
 import java.util.Map;

@@ -1,6 +1,6 @@
-package DataStructures.priorityQueueConstantTimeComplexity;
+package onlySrcCode.onlySrcCodeProject.geeksforgeeksdatastructure.DataStructures.priorityQueueConstantTimeComplexity;
 
-import DataStructures.queue.linkedListImpl.Queue;
+import onlySrcCode.onlySrcCodeProject.geeksforgeeksdatastructure.DataStructures.queue.linkedListImpl.Queue;
 
 public class PriorityQueue<E> {
 	

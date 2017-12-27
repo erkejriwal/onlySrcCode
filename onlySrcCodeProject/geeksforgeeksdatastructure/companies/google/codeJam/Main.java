@@ -1,4 +1,4 @@
-package companies.google.codeJam;
+package onlySrcCode.onlySrcCodeProject.geeksforgeeksdatastructure.companies.google.codeJam;
 
 import java.util.*;
 import java.io.*;

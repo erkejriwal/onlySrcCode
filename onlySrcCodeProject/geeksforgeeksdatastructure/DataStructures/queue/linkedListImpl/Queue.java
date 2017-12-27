@@ -1,4 +1,4 @@
-package DataStructures.queue.linkedListImpl;
+package onlySrcCode.onlySrcCodeProject.geeksforgeeksdatastructure.DataStructures.queue.linkedListImpl;
 
 public class Queue<E> {
 	private Node<E> front;

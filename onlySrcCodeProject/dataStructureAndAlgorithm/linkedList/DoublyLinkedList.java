@@ -1,4 +1,4 @@
-package linkedList;
+package onlySrcCode.onlySrcCodeProject.dataStructureAndAlgorithm.linkedList;
 
 public class DoublyLinkedList {
 	private DoublyNode head;

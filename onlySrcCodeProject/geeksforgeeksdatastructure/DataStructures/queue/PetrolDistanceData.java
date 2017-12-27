@@ -1,4 +1,4 @@
-package DataStructures.queue;
+package onlySrcCode.onlySrcCodeProject.geeksforgeeksdatastructure.DataStructures.queue;
 
 /**
  * http://www.geeksforgeeks.org/find-a-tour-that-visits-all-stations/

@@ -1,4 +1,4 @@
-package DataStructures.BinaryIndexedTree;
+package onlySrcCode.onlySrcCodeProject.geeksforgeeksdatastructure.DataStructures.BinaryIndexedTree;
 
 /**
  * time complexity is row*col(log (row).log (col))

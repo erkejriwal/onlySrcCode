@@ -1,4 +1,4 @@
-package DataStructures.trie;
+package onlySrcCode.onlySrcCodeProject.geeksforgeeksdatastructure.DataStructures.trie;
 
 public class SuffixTrie {
 	private SuffixTrieNode root;

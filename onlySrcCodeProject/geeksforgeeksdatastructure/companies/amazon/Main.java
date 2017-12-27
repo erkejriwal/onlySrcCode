@@ -1,11 +1,11 @@
-package companies.amazon;
+package onlySrcCode.onlySrcCodeProject.geeksforgeeksdatastructure.companies.amazon;
 
 import java.util.Iterator;
 import java.util.Stack;
 import java.util.TreeSet;
 
-import DataStructures.binaryTree.Student;
-import DataStructures.commonNodeDS.BinarySearchTree;
+import onlySrcCode.onlySrcCodeProject.geeksforgeeksdatastructure.DataStructures.binaryTree.Student;
+import onlySrcCode.onlySrcCodeProject.geeksforgeeksdatastructure.DataStructures.commonNodeDS.BinarySearchTree;
 
 public class Main {
 

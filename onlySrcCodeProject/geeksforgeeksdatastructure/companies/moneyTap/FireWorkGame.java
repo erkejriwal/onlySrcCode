@@ -1,4 +1,4 @@
-package companies.moneyTap;
+package onlySrcCode.onlySrcCodeProject.geeksforgeeksdatastructure.companies.moneyTap;
 
 import java.util.HashSet;
 import java.util.LinkedList;

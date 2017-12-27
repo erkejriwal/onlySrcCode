@@ -1,4 +1,4 @@
-package DataStructures.binaryTree;
+package onlySrcCode.onlySrcCodeProject.geeksforgeeksdatastructure.DataStructures.binaryTree;
 
 public interface Comparable<T> extends java.lang.Comparable<T> {
 	

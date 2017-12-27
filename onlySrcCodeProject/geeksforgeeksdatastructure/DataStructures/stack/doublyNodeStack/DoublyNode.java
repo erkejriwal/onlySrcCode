@@ -1,4 +1,4 @@
-package DataStructures.stack.doublyNodeStack;
+package onlySrcCode.onlySrcCodeProject.geeksforgeeksdatastructure.DataStructures.stack.doublyNodeStack;
 
 public class DoublyNode<E> {
 	private E data;

@@ -1,4 +1,4 @@
-package companies.peopleStrong;
+package onlySrcCode.onlySrcCodeProject.geeksforgeeksdatastructure.companies.peopleStrong;
 
 import java.util.Scanner;
 

@@ -1,4 +1,4 @@
-package DataStructures.kDimentionalTree;
+package onlySrcCode.onlySrcCodeProject.geeksforgeeksdatastructure.DataStructures.kDimentionalTree;
 
 import java.util.Arrays;
 

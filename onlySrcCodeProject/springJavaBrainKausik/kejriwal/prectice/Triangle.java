@@ -1,4 +1,4 @@
-package kejriwal.prectice;
+package onlySrcCode.onlySrcCodeProject.springJavaBrainKausik.kejriwal.prectice;
 
 import java.util.List;
 

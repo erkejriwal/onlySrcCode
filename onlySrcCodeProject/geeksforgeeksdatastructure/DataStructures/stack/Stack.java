@@ -1,4 +1,4 @@
-package DataStructures.stack;
+package onlySrcCode.onlySrcCodeProject.geeksforgeeksdatastructure.DataStructures.stack;
 
 import java.util.ArrayList;
 import java.util.List;

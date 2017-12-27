@@ -1,4 +1,4 @@
-package javatpoint.java8;
+package onlySrcCode.onlySrcCodeProject.javatpoint.java8;
 
 public interface B extends A{
 	default void d1(){

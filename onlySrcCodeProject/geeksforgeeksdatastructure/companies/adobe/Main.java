@@ -1,4 +1,4 @@
-package companies.adobe;
+package onlySrcCode.onlySrcCodeProject.geeksforgeeksdatastructure.companies.adobe;
 
 import java.util.LinkedList;
 import java.util.Scanner;

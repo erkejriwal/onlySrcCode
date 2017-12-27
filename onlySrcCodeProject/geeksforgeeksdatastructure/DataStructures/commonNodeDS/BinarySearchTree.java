@@ -1,11 +1,11 @@
-package DataStructures.commonNodeDS;
+package onlySrcCode.onlySrcCodeProject.geeksforgeeksdatastructure.DataStructures.commonNodeDS;
 
 import java.util.HashMap;
 import java.util.Iterator;
 
-import DataStructures.binaryTree.Comparable;
-import DataStructures.binaryTree.Node;
-import DataStructures.queue.linkedListImpl.Queue;
+import onlySrcCode.onlySrcCodeProject.geeksforgeeksdatastructure.DataStructures.binaryTree.Comparable;
+import onlySrcCode.onlySrcCodeProject.geeksforgeeksdatastructure.DataStructures.binaryTree.Node;
+import onlySrcCode.onlySrcCodeProject.geeksforgeeksdatastructure.DataStructures.queue.linkedListImpl.Queue;
 
 public class BinarySearchTree<E extends Comparable<E>> {
 	protected DoublyNode<E> root;

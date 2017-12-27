@@ -1,4 +1,4 @@
-package DataStructures.BinaryIndexedTree;
+package onlySrcCode.onlySrcCodeProject.geeksforgeeksdatastructure.DataStructures.BinaryIndexedTree;
 /**
  * Binary Indexed Tree or Fenwick Tree
  * @author rakeshkejriwal

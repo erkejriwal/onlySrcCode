@@ -1,4 +1,4 @@
-package DataStructures.binaryTree;
+package onlySrcCode.onlySrcCodeProject.geeksforgeeksdatastructure.DataStructures.binaryTree;
 
 import java.util.ArrayList;
 

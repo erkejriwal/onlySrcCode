@@ -1,3 +1,5 @@
+package onlySrcCode.onlySrcCodeProject.geeksforgeeksdatastructure;
+
 import java.util.Scanner;
 
 public class Solution {

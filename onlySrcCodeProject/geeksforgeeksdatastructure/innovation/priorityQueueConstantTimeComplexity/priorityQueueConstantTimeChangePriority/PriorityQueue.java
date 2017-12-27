@@ -1,4 +1,4 @@
-package innovation.priorityQueueConstantTimeComplexity.priorityQueueConstantTimeChangePriority;
+package onlySrcCode.onlySrcCodeProject.geeksforgeeksdatastructure.innovation.priorityQueueConstantTimeComplexity.priorityQueueConstantTimeChangePriority;
 
 import java.util.HashMap;
 import java.util.LinkedList;

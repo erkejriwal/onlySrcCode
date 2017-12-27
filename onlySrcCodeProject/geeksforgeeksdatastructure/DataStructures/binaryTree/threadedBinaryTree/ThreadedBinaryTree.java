@@ -1,6 +1,6 @@
-package DataStructures.binaryTree.threadedBinaryTree;
+package onlySrcCode.onlySrcCodeProject.geeksforgeeksdatastructure.DataStructures.binaryTree.threadedBinaryTree;
 
-import DataStructures.binaryTree.Comparable;
+import onlySrcCode.onlySrcCodeProject.geeksforgeeksdatastructure.DataStructures.binaryTree.Comparable;
 
 public class ThreadedBinaryTree<E extends Comparable<E>> {
 	private ThreadedBinaryNode<E> root;

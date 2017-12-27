@@ -1,4 +1,4 @@
-package DataStructures.graphs;
+package onlySrcCode.onlySrcCodeProject.geeksforgeeksdatastructure.DataStructures.graphs;
 
 //Java Program for union-find algorithm to detect cycle in a graph
 /**

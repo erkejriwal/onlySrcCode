@@ -1,46 +1,48 @@
+package onlySrcCode.onlySrcCodeProject.geeksforgeeksdatastructure;
+
 import java.sql.Array;
 import java.util.Arrays;
 import java.util.Vector;
 
-import searchAlgorithms.SearchAlgo;
-import sortAlgorithm.SortAlgorithm;
-import DataStructures.BinaryIndexedTree.BinaryIndexedTree;
-import DataStructures.BinaryIndexedTree.BinaryIndexedTree2D;
-import DataStructures.BinaryIndexedTree.BinaryIndexedTree2DOptimised;
-import DataStructures.SegmentTree.LazyUpdationSegmentSumTree;
-import DataStructures.SegmentTree.SegmentGCDTree;
-import DataStructures.SegmentTree.SegmentMinimumTree;
-import DataStructures.SegmentTree.SegmentSumTree;
-import DataStructures.SegmentTree.VersionPersistentSegmentSumTree;
-import DataStructures.binaryTree.BinarySearchTree;
-import DataStructures.binaryTree.BinaryTree;
-import DataStructures.binaryTree.BinaryTreeNode;
-import DataStructures.binaryTree.Student;
-import DataStructures.binaryTree.threadedBinaryTree.ThreadedBinaryTree;
-import DataStructures.Questions;
-import DataStructures.commonNodeDS.AVLBST;
-import DataStructures.commonNodeDS.AVLBinarySearchTree;
-import DataStructures.commonNodeDS.DoublyNode;
-import DataStructures.commonNodeDS.MinHeap;
-import DataStructures.commonNodeDS.RBTree;
-import DataStructures.doublyLinkedList.DoublyLinkedList;
-import DataStructures.graphs.AdjacencyListGraph;
-import DataStructures.graphs.AdjacencyMatrixGraph;
-import DataStructures.graphs.AdjacencyWeightedListGraph;
-import DataStructures.kDimentionalTree.KDTree;
-import DataStructures.linkedList.LinkedList;
-import DataStructures.queue.QueueUsingStack;
-import DataStructures.queue.arrayImpl.Deque;
-import DataStructures.queue.arrayImpl.KQueues;
-import DataStructures.queue.arrayImpl.Queue;
-import DataStructures.splayTree.SplayTree;
-import DataStructures.stack.KStacks;
-import DataStructures.stack.SpecialStack;
-import DataStructures.stack.Stack;
-import DataStructures.stack.StackUsingQueue;
-import DataStructures.stack.TwoStacks;
-import DataStructures.btree.BTree;
-import DataStructures.trie.Trie;
+import onlySrcCode.onlySrcCodeProject.geeksforgeeksdatastructure.searchAlgorithms.SearchAlgo;
+import onlySrcCode.onlySrcCodeProject.geeksforgeeksdatastructure.sortAlgorithm.SortAlgorithm;
+import onlySrcCode.onlySrcCodeProject.geeksforgeeksdatastructure.DataStructures.BinaryIndexedTree.BinaryIndexedTree;
+import onlySrcCode.onlySrcCodeProject.geeksforgeeksdatastructure.DataStructures.BinaryIndexedTree.BinaryIndexedTree2D;
+import onlySrcCode.onlySrcCodeProject.geeksforgeeksdatastructure.DataStructures.BinaryIndexedTree.BinaryIndexedTree2DOptimised;
+import onlySrcCode.onlySrcCodeProject.geeksforgeeksdatastructure.DataStructures.SegmentTree.LazyUpdationSegmentSumTree;
+import onlySrcCode.onlySrcCodeProject.geeksforgeeksdatastructure.DataStructures.SegmentTree.SegmentGCDTree;
+import onlySrcCode.onlySrcCodeProject.geeksforgeeksdatastructure.DataStructures.SegmentTree.SegmentMinimumTree;
+import onlySrcCode.onlySrcCodeProject.geeksforgeeksdatastructure.DataStructures.SegmentTree.SegmentSumTree;
+import onlySrcCode.onlySrcCodeProject.geeksforgeeksdatastructure.DataStructures.SegmentTree.VersionPersistentSegmentSumTree;
+import onlySrcCode.onlySrcCodeProject.geeksforgeeksdatastructure.DataStructures.binaryTree.BinarySearchTree;
+import onlySrcCode.onlySrcCodeProject.geeksforgeeksdatastructure.DataStructures.binaryTree.BinaryTree;
+import onlySrcCode.onlySrcCodeProject.geeksforgeeksdatastructure.DataStructures.binaryTree.BinaryTreeNode;
+import onlySrcCode.onlySrcCodeProject.geeksforgeeksdatastructure.DataStructures.binaryTree.Student;
+import onlySrcCode.onlySrcCodeProject.geeksforgeeksdatastructure.DataStructures.binaryTree.threadedBinaryTree.ThreadedBinaryTree;
+import onlySrcCode.onlySrcCodeProject.geeksforgeeksdatastructure.DataStructures.Questions;
+import onlySrcCode.onlySrcCodeProject.geeksforgeeksdatastructure.DataStructures.commonNodeDS.AVLBST;
+import onlySrcCode.onlySrcCodeProject.geeksforgeeksdatastructure.DataStructures.commonNodeDS.AVLBinarySearchTree;
+import onlySrcCode.onlySrcCodeProject.geeksforgeeksdatastructure.DataStructures.commonNodeDS.DoublyNode;
+import onlySrcCode.onlySrcCodeProject.geeksforgeeksdatastructure.DataStructures.commonNodeDS.MinHeap;
+import onlySrcCode.onlySrcCodeProject.geeksforgeeksdatastructure.DataStructures.commonNodeDS.RBTree;
+import onlySrcCode.onlySrcCodeProject.geeksforgeeksdatastructure.DataStructures.doublyLinkedList.DoublyLinkedList;
+import onlySrcCode.onlySrcCodeProject.geeksforgeeksdatastructure.DataStructures.graphs.AdjacencyListGraph;
+import onlySrcCode.onlySrcCodeProject.geeksforgeeksdatastructure.DataStructures.graphs.AdjacencyMatrixGraph;
+import onlySrcCode.onlySrcCodeProject.geeksforgeeksdatastructure.DataStructures.graphs.AdjacencyWeightedListGraph;
+import onlySrcCode.onlySrcCodeProject.geeksforgeeksdatastructure.DataStructures.kDimentionalTree.KDTree;
+import onlySrcCode.onlySrcCodeProject.geeksforgeeksdatastructure.DataStructures.linkedList.LinkedList;
+import onlySrcCode.onlySrcCodeProject.geeksforgeeksdatastructure.DataStructures.queue.QueueUsingStack;
+import onlySrcCode.onlySrcCodeProject.geeksforgeeksdatastructure.DataStructures.queue.arrayImpl.Deque;
+import onlySrcCode.onlySrcCodeProject.geeksforgeeksdatastructure.DataStructures.queue.arrayImpl.KQueues;
+import onlySrcCode.onlySrcCodeProject.geeksforgeeksdatastructure.DataStructures.queue.arrayImpl.Queue;
+import onlySrcCode.onlySrcCodeProject.geeksforgeeksdatastructure.DataStructures.splayTree.SplayTree;
+import onlySrcCode.onlySrcCodeProject.geeksforgeeksdatastructure.DataStructures.stack.KStacks;
+import onlySrcCode.onlySrcCodeProject.geeksforgeeksdatastructure.DataStructures.stack.SpecialStack;
+import onlySrcCode.onlySrcCodeProject.geeksforgeeksdatastructure.DataStructures.stack.Stack;
+import onlySrcCode.onlySrcCodeProject.geeksforgeeksdatastructure.DataStructures.stack.StackUsingQueue;
+import onlySrcCode.onlySrcCodeProject.geeksforgeeksdatastructure.DataStructures.stack.TwoStacks;
+import onlySrcCode.onlySrcCodeProject.geeksforgeeksdatastructure.DataStructures.btree.BTree;
+import onlySrcCode.onlySrcCodeProject.geeksforgeeksdatastructure.DataStructures.trie.Trie;
 
 public class MainClassForAllDataStructures {
 
@@ -683,7 +685,7 @@ public class MainClassForAllDataStructures {
 		doubleyLinkedList1.print();
 
 		System.out.println("\n binary search tree to doubly linked list");
-		binarySearchTree.BinarySearchTree binarySearchTree = new binarySearchTree.BinarySearchTree();
+		onlySrcCode.onlySrcCodeProject.dataStructureAndAlgorithm.binarySearchTree.BinarySearchTree binarySearchTree = new onlySrcCode.onlySrcCodeProject.dataStructureAndAlgorithm.binarySearchTree.BinarySearchTree();
 		binarySearchTree.insert(5);
 		binarySearchTree.insert(15);
 		binarySearchTree.insert(25);
@@ -798,7 +800,7 @@ public class MainClassForAllDataStructures {
 		System.out.println(-0);
 		System.out.println(0);
 
-		DataStructures.stack.doublyNodeStack.Stack<Integer> dllStack = new DataStructures.stack.doublyNodeStack.Stack<Integer>();
+		onlySrcCode.onlySrcCodeProject.geeksforgeeksdatastructure.DataStructures.stack.doublyNodeStack.Stack<Integer> dllStack = new onlySrcCode.onlySrcCodeProject.geeksforgeeksdatastructure.DataStructures.stack.doublyNodeStack.Stack<Integer>();
 		dllStack.push(45);
 		dllStack.push(50);
 		dllStack.push(55);
@@ -882,7 +884,7 @@ public class MainClassForAllDataStructures {
 		System.out.println("is queue full:-  " + queue.isQueueFull());
 
 		System.out.println("\n queue linked list implimentqtion starts here");
-		DataStructures.queue.linkedListImpl.Queue<Integer> queue1 = new DataStructures.queue.linkedListImpl.Queue<Integer>();
+		onlySrcCode.onlySrcCodeProject.geeksforgeeksdatastructure.DataStructures.queue.linkedListImpl.Queue<Integer> queue1 = new onlySrcCode.onlySrcCodeProject.geeksforgeeksdatastructure.DataStructures.queue.linkedListImpl.Queue<Integer>();
 		queue1.enQueue(30);
 		queue1.enQueue(20);
 		queue1.enQueue(40);
@@ -910,7 +912,7 @@ public class MainClassForAllDataStructures {
 		deque.print();
 
 		System.out.println("\n\nlinked list representation of deque:-");
-		DataStructures.queue.linkedListImpl.Deque<Integer> deque2 = new DataStructures.queue.linkedListImpl.Deque<Integer>();
+		onlySrcCode.onlySrcCodeProject.geeksforgeeksdatastructure.DataStructures.queue.linkedListImpl.Deque<Integer> deque2 = new onlySrcCode.onlySrcCodeProject.geeksforgeeksdatastructure.DataStructures.queue.linkedListImpl.Deque<Integer>();
 		deque2.insertFront(45);
 		deque2.insertFront(55);
 		deque2.insertRear(30);
@@ -1107,7 +1109,7 @@ public class MainClassForAllDataStructures {
 		binarySearchTree2.printInOrder();
 		System.out
 				.println("\n*******************************************************************************************************");
-		DataStructures.commonNodeDS.DoublyLinkedList<Student> dll = new DataStructures.commonNodeDS.DoublyLinkedList<Student>();
+		onlySrcCode.onlySrcCodeProject.geeksforgeeksdatastructure.DataStructures.commonNodeDS.DoublyLinkedList<Student> dll = new onlySrcCode.onlySrcCodeProject.geeksforgeeksdatastructure.DataStructures.commonNodeDS.DoublyLinkedList<Student>();
 		dll.insertAtTail(new Student(5, "a"));
 		dll.insertAtTail(new Student(15, "a"));
 		dll.insertAtTail(new Student(20, "a"));
@@ -1129,16 +1131,16 @@ public class MainClassForAllDataStructures {
 		// dll.insertAtTail(new Student(200, "a"));
 		dll.print();
 
-		DataStructures.commonNodeDS.BinarySearchTree<Student> bst = questions
+		onlySrcCode.onlySrcCodeProject.geeksforgeeksdatastructure.DataStructures.commonNodeDS.BinarySearchTree<Student> bst = questions
 				.makeBalancedBSTFromDll(dll);
-		// DataStructures.commonNodeDS.BinarySearchTree<Student> bst =
+		// onlySrcCode.onlySrcCodeProject.geeksforgeeksdatastructure.DataStructures.commonNodeDS.BinarySearchTree<Student> bst =
 		// questions.makeCompleteBSTFromDll(dll);
 
 		bst.printInOrder();
 
 		System.out
 				.println("\n*******************************************************************************************************");
-		DataStructures.commonNodeDS.DoublyLinkedList<Student> dll2 = new DataStructures.commonNodeDS.DoublyLinkedList<Student>();
+		onlySrcCode.onlySrcCodeProject.geeksforgeeksdatastructure.DataStructures.commonNodeDS.DoublyLinkedList<Student> dll2 = new onlySrcCode.onlySrcCodeProject.geeksforgeeksdatastructure.DataStructures.commonNodeDS.DoublyLinkedList<Student>();
 		dll2.insertAtTail(new Student(5, "a"));
 		dll2.insertAtTail(new Student(15, "a"));
 		dll2.insertAtTail(new Student(20, "a"));
@@ -1160,9 +1162,9 @@ public class MainClassForAllDataStructures {
 		// dll2.insertAtTail(new Student(200, "a"));
 		dll2.print();
 
-		// DataStructures.commonNodeDS.BinarySearchTree<Student> bst2 =
+		// onlySrcCode.onlySrcCodeProject.geeksforgeeksdatastructure.DataStructures.commonNodeDS.BinarySearchTree<Student> bst2 =
 		// questions.makeBalancedBSTFromDll(dll2);
-		DataStructures.commonNodeDS.BinarySearchTree<Student> bst3 = questions
+		onlySrcCode.onlySrcCodeProject.geeksforgeeksdatastructure.DataStructures.commonNodeDS.BinarySearchTree<Student> bst3 = questions
 				.makeCompleteBSTFromDll(dll2);
 
 		bst3.printBSTStructure();
@@ -1177,7 +1179,7 @@ public class MainClassForAllDataStructures {
 		// bst.insert(new Student(46, "a"));
 		// bst.printBSTStructure();
 
-		DataStructures.commonNodeDS.BinarySearchTree<Student> bst1 = new DataStructures.commonNodeDS.BinarySearchTree<Student>();
+		onlySrcCode.onlySrcCodeProject.geeksforgeeksdatastructure.DataStructures.commonNodeDS.BinarySearchTree<Student> bst1 = new onlySrcCode.onlySrcCodeProject.geeksforgeeksdatastructure.DataStructures.commonNodeDS.BinarySearchTree<Student>();
 
 		bst1.insert(new Student(50, "a"));
 		bst1.insert(new Student(45, "a"));
@@ -1204,7 +1206,7 @@ public class MainClassForAllDataStructures {
 		System.out.println("\n");
 		System.out.println(String.format("%" + 2 + "s", " "));
 
-		DataStructures.commonNodeDS.BinarySearchTree<Student> bst2 = new DataStructures.commonNodeDS.BinarySearchTree<Student>();
+		onlySrcCode.onlySrcCodeProject.geeksforgeeksdatastructure.DataStructures.commonNodeDS.BinarySearchTree<Student> bst2 = new onlySrcCode.onlySrcCodeProject.geeksforgeeksdatastructure.DataStructures.commonNodeDS.BinarySearchTree<Student>();
 
 		bst2.insert(new Student(50, "a"));
 		bst2.insert(new Student(25, "a"));
@@ -1233,7 +1235,7 @@ public class MainClassForAllDataStructures {
 		 */
 		bst1.printBSTStructure();
 		bst2.printBSTStructure();
-		DataStructures.commonNodeDS.BinarySearchTree<Student> binarySearchTree3 = questions
+		onlySrcCode.onlySrcCodeProject.geeksforgeeksdatastructure.DataStructures.commonNodeDS.BinarySearchTree<Student> binarySearchTree3 = questions
 				.mergeTwoBalancedBST(bst1, bst2);
 		binarySearchTree3.printBSTStructure();
 		binarySearchTree3.printBSTStructure(3);
@@ -1249,7 +1251,7 @@ public class MainClassForAllDataStructures {
 		System.out.print(spaces);
 		System.out.print("B");
 
-		DataStructures.commonNodeDS.BinaryTree<Student> bt = new DataStructures.commonNodeDS.BinaryTree<Student>();
+		onlySrcCode.onlySrcCodeProject.geeksforgeeksdatastructure.DataStructures.commonNodeDS.BinaryTree<Student> bt = new onlySrcCode.onlySrcCodeProject.geeksforgeeksdatastructure.DataStructures.commonNodeDS.BinaryTree<Student>();
 		bt.setRoot(new DoublyNode<Student>(new Student(50, "a")));
 		bt.getRoot().setLeft(new DoublyNode<Student>(new Student(85, "a")));
 		bt.getRoot().setRight(new DoublyNode<Student>(new Student(75, "a")));
@@ -1260,7 +1262,7 @@ public class MainClassForAllDataStructures {
 		bt.getRoot().getRight()
 				.setRight(new DoublyNode<Student>(new Student(4, "a")));
 		bt.setSize(6);
-		DataStructures.commonNodeDS.BinarySearchTree<Student> bst4 = questions
+		onlySrcCode.onlySrcCodeProject.geeksforgeeksdatastructure.DataStructures.commonNodeDS.BinarySearchTree<Student> bst4 = questions
 				.convertBinaryTreeToBinarySearchTree(bt);
 		bst4.printBSTStructure();
 
@@ -1312,7 +1314,7 @@ public class MainClassForAllDataStructures {
 						new Student(250, "a") });
 		minHeapOptimisedTimeComplexity.print(2);
 
-		DataStructures.heap.pointerHeap.MinHeap<Student> minHeap1 = new DataStructures.heap.pointerHeap.MinHeap<Student>();
+		onlySrcCode.onlySrcCodeProject.geeksforgeeksdatastructure.DataStructures.heap.pointerHeap.MinHeap<Student> minHeap1 = new onlySrcCode.onlySrcCodeProject.geeksforgeeksdatastructure.DataStructures.heap.pointerHeap.MinHeap<Student>();
 		minHeap1.insert(new Student(50, "a"));
 		minHeap1.insert(new Student(20, "a"));
 		minHeap1.insert(new Student(60, "a"));

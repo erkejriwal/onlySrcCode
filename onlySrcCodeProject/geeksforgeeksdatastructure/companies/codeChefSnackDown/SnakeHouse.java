@@ -1,4 +1,4 @@
-package companies.codeChefSnackDown;
+package onlySrcCode.onlySrcCodeProject.geeksforgeeksdatastructure.companies.codeChefSnackDown;
 
 import java.io.BufferedReader;
 import java.io.IOException;

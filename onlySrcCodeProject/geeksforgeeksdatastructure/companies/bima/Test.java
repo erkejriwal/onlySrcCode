@@ -1,4 +1,4 @@
-package companies.bima;
+package onlySrcCode.onlySrcCodeProject.geeksforgeeksdatastructure.companies.bima;
 
 public class Test 
 {

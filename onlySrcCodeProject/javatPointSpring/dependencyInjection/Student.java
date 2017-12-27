@@ -1,4 +1,4 @@
-package dependencyInjection;
+package onlySrcCode.onlySrcCodeProject.javatPointSpring.dependencyInjection;
 
 public class Student {
 	private String name;

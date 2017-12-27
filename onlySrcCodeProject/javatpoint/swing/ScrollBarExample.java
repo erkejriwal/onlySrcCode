@@ -1,4 +1,4 @@
-package javatpoint.swing;
+package onlySrcCode.onlySrcCodeProject.javatpoint.swing;
 
 import javax.swing.*;
 

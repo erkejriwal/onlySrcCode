@@ -1,4 +1,4 @@
-package DataStructures.SegmentTree;
+package onlySrcCode.onlySrcCodeProject.geeksforgeeksdatastructure.DataStructures.SegmentTree;
 /**
  * GCD- greatest common devisor
  * @author rakeshkejriwal

@@ -1,4 +1,4 @@
-package companies.amazon.amazonHackerEarth28July;
+package onlySrcCode.onlySrcCodeProject.geeksforgeeksdatastructure.companies.amazon.amazonHackerEarth28July;
 
 import java.util.Deque;
 import java.util.HashMap;

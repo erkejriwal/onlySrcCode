@@ -1,6 +1,6 @@
-package innovation.priorityQueueConstantTimeComplexity;
+package onlySrcCode.onlySrcCodeProject.geeksforgeeksdatastructure.innovation.priorityQueueConstantTimeComplexity;
 
-import DataStructures.queue.linkedListImpl.Queue;
+import onlySrcCode.onlySrcCodeProject.geeksforgeeksdatastructure.DataStructures.queue.linkedListImpl.Queue;
 
 /**
  * 
@@ -11,8 +11,8 @@ import DataStructures.queue.linkedListImpl.Queue;
  * 
  * 1. Solaris uses a multilevel feedback queue with priorities ranging between 0
  * and 169. 2. In Linux 2.4, an O(n) scheduler with a multilevel feedback queue
- * with priority levels ranging from 0 to 140 was used; 0–99 are reserved for
- * real-time tasks and 100–140 are considered nice task levels. 3. Windows
+ * with priority levels ranging from 0 to 140 was used; 0ï¿½99 are reserved for
+ * real-time tasks and 100ï¿½140 are considered nice task levels. 3. Windows
  * NT-based operating systems use a multilevel feedback queue. 32 priority
  * levels are defined, 0 through to 31, with priorities 0 through 15 being
  * "normal" priorities and priorities 16 through 31 being soft real-time

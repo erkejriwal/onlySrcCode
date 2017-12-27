@@ -1,6 +1,6 @@
-package DataStructures.queue.linkedListImpl;
+package onlySrcCode.onlySrcCodeProject.geeksforgeeksdatastructure.DataStructures.queue.linkedListImpl;
 
-import DataStructures.stack.doublyNodeStack.DoublyNode;
+import onlySrcCode.onlySrcCodeProject.geeksforgeeksdatastructure.DataStructures.stack.doublyNodeStack.DoublyNode;
 
 public class Deque<E> {
 	private DoublyNode<E> front;

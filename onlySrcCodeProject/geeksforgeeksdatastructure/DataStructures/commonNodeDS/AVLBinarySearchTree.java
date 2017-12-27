@@ -1,6 +1,6 @@
-package DataStructures.commonNodeDS;
+package onlySrcCode.onlySrcCodeProject.geeksforgeeksdatastructure.DataStructures.commonNodeDS;
 
-import DataStructures.binaryTree.Comparable;
+import onlySrcCode.onlySrcCodeProject.geeksforgeeksdatastructure.DataStructures.binaryTree.Comparable;
 
 public class AVLBinarySearchTree<T extends Comparable<T>> extends BinarySearchTree<T> {
 	public int getMax(int a, int b){

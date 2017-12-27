@@ -1,4 +1,4 @@
-package DataStructures.binaryTree;
+package onlySrcCode.onlySrcCodeProject.geeksforgeeksdatastructure.DataStructures.binaryTree;
 
 public class Node<E extends Comparable<E>> {
 	private E data;

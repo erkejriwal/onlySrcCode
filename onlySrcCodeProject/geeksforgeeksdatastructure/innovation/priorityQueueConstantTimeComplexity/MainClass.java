@@ -1,4 +1,4 @@
-package innovation.priorityQueueConstantTimeComplexity;
+package onlySrcCode.onlySrcCodeProject.geeksforgeeksdatastructure.innovation.priorityQueueConstantTimeComplexity;
 
 public class MainClass {
 

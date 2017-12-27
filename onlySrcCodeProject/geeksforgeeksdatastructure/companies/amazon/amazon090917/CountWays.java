@@ -1,4 +1,4 @@
-package companies.amazon.amazon090917;
+package onlySrcCode.onlySrcCodeProject.geeksforgeeksdatastructure.companies.amazon.amazon090917;
 
 import java.util.Arrays;
 import java.util.HashMap;

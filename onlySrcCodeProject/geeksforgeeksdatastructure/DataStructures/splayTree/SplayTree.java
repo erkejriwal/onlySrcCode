@@ -1,4 +1,4 @@
-package DataStructures.splayTree;
+package onlySrcCode.onlySrcCodeProject.geeksforgeeksdatastructure.DataStructures.splayTree;
 
 public class SplayTree {
 	private Node root;

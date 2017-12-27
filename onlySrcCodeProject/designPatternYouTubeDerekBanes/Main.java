@@ -1,4 +1,4 @@
-package designPatternYouTubeDerekBanes;
+package onlySrcCode.onlySrcCodeProject.designPatternYouTubeDerekBanes;
 
 import javax.swing.JFrame;
 import javax.swing.JOptionPane;

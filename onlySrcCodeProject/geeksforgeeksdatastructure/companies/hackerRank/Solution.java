@@ -1,4 +1,4 @@
-package companies.hackerRank;
+package onlySrcCode.onlySrcCodeProject.geeksforgeeksdatastructure.companies.hackerRank;
 
 import java.io.BufferedReader;
 import java.io.InputStreamReader;

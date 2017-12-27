@@ -1,4 +1,4 @@
-package DataStructures.SegmentTree;
+package onlySrcCode.onlySrcCodeProject.geeksforgeeksdatastructure.DataStructures.SegmentTree;
 
 import java.util.ArrayList;
 import java.util.List;

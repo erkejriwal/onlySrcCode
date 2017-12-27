@@ -1,4 +1,4 @@
-package searchAlgorithms;
+package onlySrcCode.onlySrcCodeProject.geeksforgeeksdatastructure.searchAlgorithms;
 
 public class SearchAlgo {
 	

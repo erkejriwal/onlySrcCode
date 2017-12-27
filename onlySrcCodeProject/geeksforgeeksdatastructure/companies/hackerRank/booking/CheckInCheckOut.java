@@ -1,4 +1,4 @@
-package companies.hackerRank.booking;
+package onlySrcCode.onlySrcCodeProject.geeksforgeeksdatastructure.companies.hackerRank.booking;
 
 import java.io.InputStreamReader;
 import java.text.ParseException;

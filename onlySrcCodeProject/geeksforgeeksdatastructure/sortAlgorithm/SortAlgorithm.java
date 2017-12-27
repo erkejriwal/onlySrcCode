@@ -1,4 +1,4 @@
-package sortAlgorithm;
+package onlySrcCode.onlySrcCodeProject.geeksforgeeksdatastructure.sortAlgorithm;
 
 import java.util.Arrays;
 

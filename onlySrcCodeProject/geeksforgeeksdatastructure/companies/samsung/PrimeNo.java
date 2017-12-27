@@ -1,4 +1,4 @@
-package companies.samsung;
+package onlySrcCode.onlySrcCodeProject.geeksforgeeksdatastructure.companies.samsung;
 
 public class PrimeNo {
 

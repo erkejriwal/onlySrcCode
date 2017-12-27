@@ -1,4 +1,4 @@
-package DataStructures.doublyLinkedList;
+package onlySrcCode.onlySrcCodeProject.geeksforgeeksdatastructure.DataStructures.doublyLinkedList;
 
 
 

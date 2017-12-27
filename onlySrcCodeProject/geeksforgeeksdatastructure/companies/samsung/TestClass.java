@@ -1,4 +1,4 @@
-package companies.samsung;
+package onlySrcCode.onlySrcCodeProject.geeksforgeeksdatastructure.companies.samsung;
 
 /* IMPORTANT: Multiple classes and nested static classes are supported */
 

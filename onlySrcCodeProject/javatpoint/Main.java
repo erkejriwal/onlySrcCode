@@ -1,4 +1,4 @@
-package javatpoint;
+package onlySrcCode.onlySrcCodeProject.javatpoint;
 
 import java.io.IOException;
 import java.util.Collection;
@@ -7,7 +7,7 @@ import java.util.HashMap;
 import java.util.Map;
 import java.util.Scanner;
 
-import javatpoint.pack1.Shape;
+import onlySrcCode.onlySrcCodeProject.javatpoint.pack1.Shape;
 
 /**
  * javatpoint main class

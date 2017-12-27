@@ -1,4 +1,4 @@
-package DataStructures;
+package onlySrcCode.onlySrcCodeProject.geeksforgeeksdatastructure.DataStructures;
 
 import java.lang.reflect.Array;
 import java.util.ArrayList;
@@ -8,26 +8,26 @@ import java.util.HashSet;
 import java.util.Iterator;
 import java.util.ListIterator;
 
-import DataStructures.binaryTree.BinarySearchTree;
-import DataStructures.binaryTree.BinaryTree;
-import DataStructures.binaryTree.BinaryTreeNode;
-import DataStructures.binaryTree.Comparable;
-import DataStructures.binaryTree.Student;
-import DataStructures.commonNodeDS.LeftRightChild;
-import DataStructures.commonNodeDS.Space;
-import DataStructures.doublyLinkedList.DoublyLinkedList;
-import DataStructures.doublyLinkedList.DoublyNode;
-import DataStructures.graphs.AdjacencyListGraph;
-import DataStructures.graphs.AdjacencyWeightedListGraph;
-import DataStructures.linkedList.LinkedList;
-import DataStructures.linkedList.Node;
-import DataStructures.queue.PetrolDistanceData;
-import DataStructures.queue.arrayImpl.Deque;
-import DataStructures.queue.linkedListImpl.Queue;
-import DataStructures.stack.Stack;
-import DataStructures.trie.SuffixTrie;
-import DataStructures.trie.Trie;
-import binarySearchTree.TreeNode;
+import onlySrcCode.onlySrcCodeProject.geeksforgeeksdatastructure.DataStructures.binaryTree.BinarySearchTree;
+import onlySrcCode.onlySrcCodeProject.geeksforgeeksdatastructure.DataStructures.binaryTree.BinaryTree;
+import onlySrcCode.onlySrcCodeProject.geeksforgeeksdatastructure.DataStructures.binaryTree.BinaryTreeNode;
+import onlySrcCode.onlySrcCodeProject.geeksforgeeksdatastructure.DataStructures.binaryTree.Comparable;
+import onlySrcCode.onlySrcCodeProject.geeksforgeeksdatastructure.DataStructures.binaryTree.Student;
+import onlySrcCode.onlySrcCodeProject.geeksforgeeksdatastructure.DataStructures.commonNodeDS.LeftRightChild;
+import onlySrcCode.onlySrcCodeProject.geeksforgeeksdatastructure.DataStructures.commonNodeDS.Space;
+import onlySrcCode.onlySrcCodeProject.geeksforgeeksdatastructure.DataStructures.doublyLinkedList.DoublyLinkedList;
+import onlySrcCode.onlySrcCodeProject.geeksforgeeksdatastructure.DataStructures.doublyLinkedList.DoublyNode;
+import onlySrcCode.onlySrcCodeProject.geeksforgeeksdatastructure.DataStructures.graphs.AdjacencyListGraph;
+import onlySrcCode.onlySrcCodeProject.geeksforgeeksdatastructure.DataStructures.graphs.AdjacencyWeightedListGraph;
+import onlySrcCode.onlySrcCodeProject.geeksforgeeksdatastructure.DataStructures.linkedList.LinkedList;
+import onlySrcCode.onlySrcCodeProject.geeksforgeeksdatastructure.DataStructures.linkedList.Node;
+import onlySrcCode.onlySrcCodeProject.geeksforgeeksdatastructure.DataStructures.queue.PetrolDistanceData;
+import onlySrcCode.onlySrcCodeProject.geeksforgeeksdatastructure.DataStructures.queue.arrayImpl.Deque;
+import onlySrcCode.onlySrcCodeProject.geeksforgeeksdatastructure.DataStructures.queue.linkedListImpl.Queue;
+import onlySrcCode.onlySrcCodeProject.geeksforgeeksdatastructure.DataStructures.stack.Stack;
+import onlySrcCode.onlySrcCodeProject.geeksforgeeksdatastructure.DataStructures.trie.SuffixTrie;
+import onlySrcCode.onlySrcCodeProject.geeksforgeeksdatastructure.DataStructures.trie.Trie;
+import onlySrcCode.onlySrcCodeProject.dataStructureAndAlgorithm.binarySearchTree.TreeNode;
 
 public class Questions<E> {
 
@@ -320,8 +320,8 @@ public class Questions<E> {
 	 * Great Tree-List Recursion Problem. Question: Write a recursive function
 	 * treeToList(Node root) that takes an ordered binary tree and rearranges
 	 * the internal pointers to make a circular doubly linked list out of the
-	 * tree nodes. The”previous” pointers should be stored in the “small” field
-	 * and the “next” pointers should be stored in the “large” field. The list
+	 * tree nodes. Theï¿½previousï¿½ pointers should be stored in the ï¿½smallï¿½ field
+	 * and the ï¿½nextï¿½ pointers should be stored in the ï¿½largeï¿½ field. The list
 	 * should be arranged so that the nodes are in increasing order. Return the
 	 * head pointer to the new list.
 	 * 
@@ -880,11 +880,11 @@ public class Questions<E> {
 	 */
 	public static void printTwoBSTWithLimitedExtraSpace(
 			BinarySearchTree<Student> bst1, BinarySearchTree<Student> bst2) {
-		DataStructures.stack.singlyLinkListStack.Stack<DataStructures.binaryTree.Node<Student>> stack1 = new DataStructures.stack.singlyLinkListStack.Stack<DataStructures.binaryTree.Node<Student>>();
-		DataStructures.stack.singlyLinkListStack.Stack<DataStructures.binaryTree.Node<Student>> stack2 = new DataStructures.stack.singlyLinkListStack.Stack<DataStructures.binaryTree.Node<Student>>();
+		onlySrcCode.onlySrcCodeProject.geeksforgeeksdatastructure.DataStructures.stack.singlyLinkListStack.Stack<onlySrcCode.onlySrcCodeProject.geeksforgeeksdatastructure.DataStructures.binaryTree.Node<Student>> stack1 = new onlySrcCode.onlySrcCodeProject.geeksforgeeksdatastructure.DataStructures.stack.singlyLinkListStack.Stack<onlySrcCode.onlySrcCodeProject.geeksforgeeksdatastructure.DataStructures.binaryTree.Node<Student>>();
+		onlySrcCode.onlySrcCodeProject.geeksforgeeksdatastructure.DataStructures.stack.singlyLinkListStack.Stack<onlySrcCode.onlySrcCodeProject.geeksforgeeksdatastructure.DataStructures.binaryTree.Node<Student>> stack2 = new onlySrcCode.onlySrcCodeProject.geeksforgeeksdatastructure.DataStructures.stack.singlyLinkListStack.Stack<onlySrcCode.onlySrcCodeProject.geeksforgeeksdatastructure.DataStructures.binaryTree.Node<Student>>();
 
-		DataStructures.binaryTree.Node<Student> bstRoot1 = bst1.getRoot();
-		DataStructures.binaryTree.Node<Student> bstRoot2 = bst2.getRoot();
+		onlySrcCode.onlySrcCodeProject.geeksforgeeksdatastructure.DataStructures.binaryTree.Node<Student> bstRoot1 = bst1.getRoot();
+		onlySrcCode.onlySrcCodeProject.geeksforgeeksdatastructure.DataStructures.binaryTree.Node<Student> bstRoot2 = bst2.getRoot();
 
 		while (!(stack1.getSize() == 0 && stack2.getSize() == 0
 				&& bstRoot1 == null && bstRoot2 == null)) {
@@ -929,15 +929,15 @@ public class Questions<E> {
 	/*
 	 * public static BinarySearchTree<Student>
 	 * correctBSTWhileTwoNodesAreSwapped( BinarySearchTree<Student> bst) {
-	 * DataStructures.binaryTree.Node<Student> tillNowMinParent = null;
-	 * DataStructures.binaryTree.Node<Student> tempRoot = bst.getRoot();
-	 * DataStructures.binaryTree.Node<Student> wrongNode1 = null;
-	 * DataStructures.binaryTree.Node<Student> wrongNode2 = null; boolean
+	 * onlySrcCode.onlySrcCodeProject.geeksforgeeksdatastructure.DataStructures.binaryTree.Node<Student> tillNowMinParent = null;
+	 * onlySrcCode.onlySrcCodeProject.geeksforgeeksdatastructure.DataStructures.binaryTree.Node<Student> tempRoot = bst.getRoot();
+	 * onlySrcCode.onlySrcCodeProject.geeksforgeeksdatastructure.DataStructures.binaryTree.Node<Student> wrongNode1 = null;
+	 * onlySrcCode.onlySrcCodeProject.geeksforgeeksdatastructure.DataStructures.binaryTree.Node<Student> wrongNode2 = null; boolean
 	 * isStackElement = false;
 	 * 
-	 * DataStructures.stack.singlyLinkListStack.Stack<DataStructures.binaryTree.Node
+	 * onlySrcCode.onlySrcCodeProject.geeksforgeeksdatastructure.DataStructures.stack.singlyLinkListStack.Stack<onlySrcCode.onlySrcCodeProject.geeksforgeeksdatastructure.DataStructures.binaryTree.Node
 	 * <Student>> stack = new
-	 * DataStructures.stack.singlyLinkListStack.Stack<DataStructures
+	 * onlySrcCode.onlySrcCodeProject.geeksforgeeksdatastructure.DataStructures.stack.singlyLinkListStack.Stack<DataStructures
 	 * .binaryTree.Node<Student>>(); while (!(tempRoot == null &&
 	 * stack.getSize() == 0)) { while (tempRoot != null && !isStackElement) {
 	 * stack.push(tempRoot); tempRoot = tempRoot.getLeftChild(); }
@@ -965,19 +965,19 @@ public class Questions<E> {
 
 	public static BinarySearchTree<Student> correctBSTWhileTwoNodesAreSwapped(
 			BinarySearchTree<Student> bst) {
-		DataStructures.binaryTree.Node<Student> previous = null;
-		DataStructures.binaryTree.Node<Student> current = null;
-		DataStructures.binaryTree.Node<Student> next = null;
-		DataStructures.binaryTree.Node<Student> nextToNext = null;
-		DataStructures.binaryTree.Node<Student> wrongNode1 = null;
-		DataStructures.binaryTree.Node<Student> wrongNode2 = null;
-		DataStructures.binaryTree.Node<Student> tempRoot = bst.getRoot();
+		onlySrcCode.onlySrcCodeProject.geeksforgeeksdatastructure.DataStructures.binaryTree.Node<Student> previous = null;
+		onlySrcCode.onlySrcCodeProject.geeksforgeeksdatastructure.DataStructures.binaryTree.Node<Student> current = null;
+		onlySrcCode.onlySrcCodeProject.geeksforgeeksdatastructure.DataStructures.binaryTree.Node<Student> next = null;
+		onlySrcCode.onlySrcCodeProject.geeksforgeeksdatastructure.DataStructures.binaryTree.Node<Student> nextToNext = null;
+		onlySrcCode.onlySrcCodeProject.geeksforgeeksdatastructure.DataStructures.binaryTree.Node<Student> wrongNode1 = null;
+		onlySrcCode.onlySrcCodeProject.geeksforgeeksdatastructure.DataStructures.binaryTree.Node<Student> wrongNode2 = null;
+		onlySrcCode.onlySrcCodeProject.geeksforgeeksdatastructure.DataStructures.binaryTree.Node<Student> tempRoot = bst.getRoot();
 
 		boolean isStackElement = false;
 		boolean wrongNextNodeDetected = false;
 		boolean wrongCurrentNodeDetected = false;
 
-		DataStructures.stack.singlyLinkListStack.Stack<DataStructures.binaryTree.Node<Student>> stack = new DataStructures.stack.singlyLinkListStack.Stack<DataStructures.binaryTree.Node<Student>>();
+		onlySrcCode.onlySrcCodeProject.geeksforgeeksdatastructure.DataStructures.stack.singlyLinkListStack.Stack<onlySrcCode.onlySrcCodeProject.geeksforgeeksdatastructure.DataStructures.binaryTree.Node<Student>> stack = new onlySrcCode.onlySrcCodeProject.geeksforgeeksdatastructure.DataStructures.stack.singlyLinkListStack.Stack<onlySrcCode.onlySrcCodeProject.geeksforgeeksdatastructure.DataStructures.binaryTree.Node<Student>>();
 		while (!(tempRoot == null && stack.getSize() == 0 && current == null)) {
 			while (tempRoot != null && !isStackElement) {
 				stack.push(tempRoot);
@@ -1105,14 +1105,14 @@ public class Questions<E> {
 	}
 
 	private class WrongData {
-		DataStructures.binaryTree.Node<Student> wrongData1 = null;
-		DataStructures.binaryTree.Node<Student> wrongData1Next = null;
-		DataStructures.binaryTree.Node<Student> wrongData2 = null;
+		onlySrcCode.onlySrcCodeProject.geeksforgeeksdatastructure.DataStructures.binaryTree.Node<Student> wrongData1 = null;
+		onlySrcCode.onlySrcCodeProject.geeksforgeeksdatastructure.DataStructures.binaryTree.Node<Student> wrongData1Next = null;
+		onlySrcCode.onlySrcCodeProject.geeksforgeeksdatastructure.DataStructures.binaryTree.Node<Student> wrongData2 = null;
 	}
 
 	public BinarySearchTree<Student> correctBSTWhileTwoNodesAreSwappedShortMethod(
 			BinarySearchTree<Student> bst) {
-		DataStructures.binaryTree.Node<Student> bstRoot = bst.getRoot();
+		onlySrcCode.onlySrcCodeProject.geeksforgeeksdatastructure.DataStructures.binaryTree.Node<Student> bstRoot = bst.getRoot();
 		WrongData wrongData = new WrongData();
 		correctBSTWhileTwoNodesAreSwappedIterative(bstRoot, null, wrongData);
 		if (wrongData.wrongData2 == null) {
@@ -1134,16 +1134,16 @@ public class Questions<E> {
 		return bst;
 	}
 
-	private void swap(DataStructures.binaryTree.Node<Student> node1,
-			DataStructures.binaryTree.Node<Student> node2) {
+	private void swap(onlySrcCode.onlySrcCodeProject.geeksforgeeksdatastructure.DataStructures.binaryTree.Node<Student> node1,
+			onlySrcCode.onlySrcCodeProject.geeksforgeeksdatastructure.DataStructures.binaryTree.Node<Student> node2) {
 		Student temp = node1.getData();
 		node1.setData(node2.getData());
 		node2.setData(temp);
 	}
 
-	private DataStructures.binaryTree.Node<Student> correctBSTWhileTwoNodesAreSwappedIterative(
-			DataStructures.binaryTree.Node<Student> bstRoot,
-			DataStructures.binaryTree.Node<Student> previous,
+	private onlySrcCode.onlySrcCodeProject.geeksforgeeksdatastructure.DataStructures.binaryTree.Node<Student> correctBSTWhileTwoNodesAreSwappedIterative(
+			onlySrcCode.onlySrcCodeProject.geeksforgeeksdatastructure.DataStructures.binaryTree.Node<Student> bstRoot,
+			onlySrcCode.onlySrcCodeProject.geeksforgeeksdatastructure.DataStructures.binaryTree.Node<Student> previous,
 			WrongData wrongData) {
 		if (bstRoot.getLeftChild() != null) {
 			previous = correctBSTWhileTwoNodesAreSwappedIterative(
@@ -1172,9 +1172,9 @@ public class Questions<E> {
 	 * @param dll
 	 * @return
 	 */
-	public DataStructures.commonNodeDS.BinarySearchTree<Student> makeBalancedBSTFromDll(
-			DataStructures.commonNodeDS.DoublyLinkedList<Student> dll) {
-		DataStructures.commonNodeDS.BinarySearchTree<Student> bst = new DataStructures.commonNodeDS.BinarySearchTree<Student>();
+	public onlySrcCode.onlySrcCodeProject.geeksforgeeksdatastructure.DataStructures.commonNodeDS.BinarySearchTree<Student> makeBalancedBSTFromDll(
+			onlySrcCode.onlySrcCodeProject.geeksforgeeksdatastructure.DataStructures.commonNodeDS.DoublyLinkedList<Student> dll) {
+		onlySrcCode.onlySrcCodeProject.geeksforgeeksdatastructure.DataStructures.commonNodeDS.BinarySearchTree<Student> bst = new onlySrcCode.onlySrcCodeProject.geeksforgeeksdatastructure.DataStructures.commonNodeDS.BinarySearchTree<Student>();
 		bst.setRoot(makeBalancedBSTFromDll(dll, dll.getSize()));
 		bst.setSize(dll.getSize());
 		return bst;
@@ -1189,14 +1189,14 @@ public class Questions<E> {
 	 * @param n
 	 * @return
 	 */
-	private DataStructures.commonNodeDS.DoublyNode<Student> makeBalancedBSTFromDll(
-			DataStructures.commonNodeDS.DoublyLinkedList<Student> dll, int n) {
+	private onlySrcCode.onlySrcCodeProject.geeksforgeeksdatastructure.DataStructures.commonNodeDS.DoublyNode<Student> makeBalancedBSTFromDll(
+			onlySrcCode.onlySrcCodeProject.geeksforgeeksdatastructure.DataStructures.commonNodeDS.DoublyLinkedList<Student> dll, int n) {
 		if (n <= 0) {
 			return null;
 		}
-		DataStructures.commonNodeDS.DoublyNode<Student> left = makeBalancedBSTFromDll(
+		onlySrcCode.onlySrcCodeProject.geeksforgeeksdatastructure.DataStructures.commonNodeDS.DoublyNode<Student> left = makeBalancedBSTFromDll(
 				dll, n / 2);
-		DataStructures.commonNodeDS.DoublyNode<Student> root = dll.getHead();
+		onlySrcCode.onlySrcCodeProject.geeksforgeeksdatastructure.DataStructures.commonNodeDS.DoublyNode<Student> root = dll.getHead();
 		root.setLeft(left);
 		dll.setHead(dll.getHead().getRight());
 		root.setRight(makeBalancedBSTFromDll(dll, n - n / 2 - 1));
@@ -1210,9 +1210,9 @@ public class Questions<E> {
 	 * @param dll
 	 * @return
 	 */
-	public DataStructures.commonNodeDS.BinarySearchTree<Student> makeCompleteBSTFromDll(
-			DataStructures.commonNodeDS.DoublyLinkedList<Student> dll) {
-		DataStructures.commonNodeDS.BinarySearchTree<Student> bst = new DataStructures.commonNodeDS.BinarySearchTree<Student>();
+	public onlySrcCode.onlySrcCodeProject.geeksforgeeksdatastructure.DataStructures.commonNodeDS.BinarySearchTree<Student> makeCompleteBSTFromDll(
+			onlySrcCode.onlySrcCodeProject.geeksforgeeksdatastructure.DataStructures.commonNodeDS.DoublyLinkedList<Student> dll) {
+		onlySrcCode.onlySrcCodeProject.geeksforgeeksdatastructure.DataStructures.commonNodeDS.BinarySearchTree<Student> bst = new onlySrcCode.onlySrcCodeProject.geeksforgeeksdatastructure.DataStructures.commonNodeDS.BinarySearchTree<Student>();
 		bst.setRoot(makeCompleteBSTFromDll(dll, dll.getSize()));
 		bst.setSize(dll.getSize());
 		return bst;
@@ -1227,16 +1227,16 @@ public class Questions<E> {
 	 * @param n
 	 * @return
 	 */
-	private DataStructures.commonNodeDS.DoublyNode<Student> makeCompleteBSTFromDll(
-			DataStructures.commonNodeDS.DoublyLinkedList<Student> dll, int n) {
+	private onlySrcCode.onlySrcCodeProject.geeksforgeeksdatastructure.DataStructures.commonNodeDS.DoublyNode<Student> makeCompleteBSTFromDll(
+			onlySrcCode.onlySrcCodeProject.geeksforgeeksdatastructure.DataStructures.commonNodeDS.DoublyLinkedList<Student> dll, int n) {
 		if (n <= 0) {
 			return null;
 		}
 		LeftRightChild leftRightChild = new LeftRightChild();
 		this.calculateNoOfLeftRightChildNodesForCompleteBST(n, leftRightChild);
-		DataStructures.commonNodeDS.DoublyNode<Student> left = makeCompleteBSTFromDll(
+		onlySrcCode.onlySrcCodeProject.geeksforgeeksdatastructure.DataStructures.commonNodeDS.DoublyNode<Student> left = makeCompleteBSTFromDll(
 				dll, leftRightChild.getLeftChild());
-		DataStructures.commonNodeDS.DoublyNode<Student> root = dll.getHead();
+		onlySrcCode.onlySrcCodeProject.geeksforgeeksdatastructure.DataStructures.commonNodeDS.DoublyNode<Student> root = dll.getHead();
 		root.setLeft(left);
 		dll.setHead(dll.getHead().getRight());
 		root.setRight(makeCompleteBSTFromDll(dll,
@@ -1289,15 +1289,15 @@ public class Questions<E> {
 	 * @param bst
 	 */
 	public void pairWithGivenSum(int sum,
-			DataStructures.commonNodeDS.BinarySearchTree<Student> bst) {
+			onlySrcCode.onlySrcCodeProject.geeksforgeeksdatastructure.DataStructures.commonNodeDS.BinarySearchTree<Student> bst) {
 		if (bst == null || bst.getRoot() == null) {
 			return;
 		}
-		DataStructures.stack.singlyLinkListStack.Stack<DataStructures.commonNodeDS.DoublyNode<Student>> leftStack = new DataStructures.stack.singlyLinkListStack.Stack<DataStructures.commonNodeDS.DoublyNode<Student>>();
-		DataStructures.stack.singlyLinkListStack.Stack<DataStructures.commonNodeDS.DoublyNode<Student>> rightStack = new DataStructures.stack.singlyLinkListStack.Stack<DataStructures.commonNodeDS.DoublyNode<Student>>();
-		DataStructures.commonNodeDS.DoublyNode<Student> leftTempRoot = bst
+		onlySrcCode.onlySrcCodeProject.geeksforgeeksdatastructure.DataStructures.stack.singlyLinkListStack.Stack<onlySrcCode.onlySrcCodeProject.geeksforgeeksdatastructure.DataStructures.commonNodeDS.DoublyNode<Student>> leftStack = new onlySrcCode.onlySrcCodeProject.geeksforgeeksdatastructure.DataStructures.stack.singlyLinkListStack.Stack<onlySrcCode.onlySrcCodeProject.geeksforgeeksdatastructure.DataStructures.commonNodeDS.DoublyNode<Student>>();
+		onlySrcCode.onlySrcCodeProject.geeksforgeeksdatastructure.DataStructures.stack.singlyLinkListStack.Stack<onlySrcCode.onlySrcCodeProject.geeksforgeeksdatastructure.DataStructures.commonNodeDS.DoublyNode<Student>> rightStack = new onlySrcCode.onlySrcCodeProject.geeksforgeeksdatastructure.DataStructures.stack.singlyLinkListStack.Stack<onlySrcCode.onlySrcCodeProject.geeksforgeeksdatastructure.DataStructures.commonNodeDS.DoublyNode<Student>>();
+		onlySrcCode.onlySrcCodeProject.geeksforgeeksdatastructure.DataStructures.commonNodeDS.DoublyNode<Student> leftTempRoot = bst
 				.getRoot();
-		DataStructures.commonNodeDS.DoublyNode<Student> rightTempRoot = bst
+		onlySrcCode.onlySrcCodeProject.geeksforgeeksdatastructure.DataStructures.commonNodeDS.DoublyNode<Student> rightTempRoot = bst
 				.getRoot();
 		boolean isLeftStackElement = false;
 		boolean isRightStackElement = false;
@@ -1341,15 +1341,15 @@ public class Questions<E> {
 		}
 	}
 
-	public DataStructures.commonNodeDS.BinarySearchTree<Student> mergeTwoBalancedBST(
-			DataStructures.commonNodeDS.BinarySearchTree<Student> bst1,
-			DataStructures.commonNodeDS.BinarySearchTree<Student> bst2) {
-		DataStructures.commonNodeDS.BinarySearchTree<Student> mergedBST = new DataStructures.commonNodeDS.BinarySearchTree<Student>();
-		DataStructures.stack.singlyLinkListStack.Stack<DataStructures.commonNodeDS.DoublyNode<Student>> stack1 = new DataStructures.stack.singlyLinkListStack.Stack<DataStructures.commonNodeDS.DoublyNode<Student>>();
-		DataStructures.stack.singlyLinkListStack.Stack<DataStructures.commonNodeDS.DoublyNode<Student>> stack2 = new DataStructures.stack.singlyLinkListStack.Stack<DataStructures.commonNodeDS.DoublyNode<Student>>();
-		DataStructures.commonNodeDS.DoublyNode<Student> tempRoot1 = bst1
+	public onlySrcCode.onlySrcCodeProject.geeksforgeeksdatastructure.DataStructures.commonNodeDS.BinarySearchTree<Student> mergeTwoBalancedBST(
+			onlySrcCode.onlySrcCodeProject.geeksforgeeksdatastructure.DataStructures.commonNodeDS.BinarySearchTree<Student> bst1,
+			onlySrcCode.onlySrcCodeProject.geeksforgeeksdatastructure.DataStructures.commonNodeDS.BinarySearchTree<Student> bst2) {
+		onlySrcCode.onlySrcCodeProject.geeksforgeeksdatastructure.DataStructures.commonNodeDS.BinarySearchTree<Student> mergedBST = new onlySrcCode.onlySrcCodeProject.geeksforgeeksdatastructure.DataStructures.commonNodeDS.BinarySearchTree<Student>();
+		onlySrcCode.onlySrcCodeProject.geeksforgeeksdatastructure.DataStructures.stack.singlyLinkListStack.Stack<onlySrcCode.onlySrcCodeProject.geeksforgeeksdatastructure.DataStructures.commonNodeDS.DoublyNode<Student>> stack1 = new onlySrcCode.onlySrcCodeProject.geeksforgeeksdatastructure.DataStructures.stack.singlyLinkListStack.Stack<onlySrcCode.onlySrcCodeProject.geeksforgeeksdatastructure.DataStructures.commonNodeDS.DoublyNode<Student>>();
+		onlySrcCode.onlySrcCodeProject.geeksforgeeksdatastructure.DataStructures.stack.singlyLinkListStack.Stack<onlySrcCode.onlySrcCodeProject.geeksforgeeksdatastructure.DataStructures.commonNodeDS.DoublyNode<Student>> stack2 = new onlySrcCode.onlySrcCodeProject.geeksforgeeksdatastructure.DataStructures.stack.singlyLinkListStack.Stack<onlySrcCode.onlySrcCodeProject.geeksforgeeksdatastructure.DataStructures.commonNodeDS.DoublyNode<Student>>();
+		onlySrcCode.onlySrcCodeProject.geeksforgeeksdatastructure.DataStructures.commonNodeDS.DoublyNode<Student> tempRoot1 = bst1
 				.getRoot();
-		DataStructures.commonNodeDS.DoublyNode<Student> tempRoot2 = bst2
+		onlySrcCode.onlySrcCodeProject.geeksforgeeksdatastructure.DataStructures.commonNodeDS.DoublyNode<Student> tempRoot2 = bst2
 				.getRoot();
 		while (tempRoot1 != null) {
 			stack1.push(tempRoot1);
@@ -1364,22 +1364,22 @@ public class Questions<E> {
 		return mergedBST;
 	}
 
-	private DataStructures.commonNodeDS.DoublyNode<Student> mergeTwoBalancedBST(
+	private onlySrcCode.onlySrcCodeProject.geeksforgeeksdatastructure.DataStructures.commonNodeDS.DoublyNode<Student> mergeTwoBalancedBST(
 			int totalSize,
-			DataStructures.stack.singlyLinkListStack.Stack<DataStructures.commonNodeDS.DoublyNode<Student>> stack1,
-			DataStructures.stack.singlyLinkListStack.Stack<DataStructures.commonNodeDS.DoublyNode<Student>> stack2) {
+			onlySrcCode.onlySrcCodeProject.geeksforgeeksdatastructure.DataStructures.stack.singlyLinkListStack.Stack<onlySrcCode.onlySrcCodeProject.geeksforgeeksdatastructure.DataStructures.commonNodeDS.DoublyNode<Student>> stack1,
+			onlySrcCode.onlySrcCodeProject.geeksforgeeksdatastructure.DataStructures.stack.singlyLinkListStack.Stack<onlySrcCode.onlySrcCodeProject.geeksforgeeksdatastructure.DataStructures.commonNodeDS.DoublyNode<Student>> stack2) {
 		if (totalSize == 0) {
 			return null;
 		}
-		DataStructures.commonNodeDS.DoublyNode<Student> left = this
+		onlySrcCode.onlySrcCodeProject.geeksforgeeksdatastructure.DataStructures.commonNodeDS.DoublyNode<Student> left = this
 				.mergeTwoBalancedBST(totalSize / 2, stack1, stack2);
 
-		DataStructures.commonNodeDS.DoublyNode<Student> tempRoot1 = null;
+		onlySrcCode.onlySrcCodeProject.geeksforgeeksdatastructure.DataStructures.commonNodeDS.DoublyNode<Student> tempRoot1 = null;
 		boolean isstack1Element = false;
-		DataStructures.commonNodeDS.DoublyNode<Student> tempRoot2 = null;
+		onlySrcCode.onlySrcCodeProject.geeksforgeeksdatastructure.DataStructures.commonNodeDS.DoublyNode<Student> tempRoot2 = null;
 		boolean isstack2Element = false;
 
-		DataStructures.commonNodeDS.DoublyNode<Student> root;
+		onlySrcCode.onlySrcCodeProject.geeksforgeeksdatastructure.DataStructures.commonNodeDS.DoublyNode<Student> root;
 		if ((stack1.getSize() > 0 && stack2.getSize() > 0 && stack1.peek()
 				.getData().compareTo(stack2.peek().getData()) <= 0)
 				|| (stack1.getSize() > 0 && stack2.getSize() == 0)) {
@@ -1429,11 +1429,11 @@ public class Questions<E> {
 		return count;
 	}
 
-	public DataStructures.commonNodeDS.BinarySearchTree<Student> convertBinaryTreeToBinarySearchTree(
-			DataStructures.commonNodeDS.BinaryTree<Student> bt) {
-		DataStructures.commonNodeDS.BinarySearchTree<Student> bst = new DataStructures.commonNodeDS.BinarySearchTree<Student>();
-		DataStructures.commonNodeDS.DoublyNode<Student>[] array = (DataStructures.commonNodeDS.DoublyNode<Student>[]) Array
-				.newInstance(DataStructures.commonNodeDS.DoublyNode.class,
+	public onlySrcCode.onlySrcCodeProject.geeksforgeeksdatastructure.DataStructures.commonNodeDS.BinarySearchTree<Student> convertBinaryTreeToBinarySearchTree(
+			onlySrcCode.onlySrcCodeProject.geeksforgeeksdatastructure.DataStructures.commonNodeDS.BinaryTree<Student> bt) {
+		onlySrcCode.onlySrcCodeProject.geeksforgeeksdatastructure.DataStructures.commonNodeDS.BinarySearchTree<Student> bst = new onlySrcCode.onlySrcCodeProject.geeksforgeeksdatastructure.DataStructures.commonNodeDS.BinarySearchTree<Student>();
+		onlySrcCode.onlySrcCodeProject.geeksforgeeksdatastructure.DataStructures.commonNodeDS.DoublyNode<Student>[] array = (onlySrcCode.onlySrcCodeProject.geeksforgeeksdatastructure.DataStructures.commonNodeDS.DoublyNode<Student>[]) Array
+				.newInstance(onlySrcCode.onlySrcCodeProject.geeksforgeeksdatastructure.DataStructures.commonNodeDS.DoublyNode.class,
 						bt.getSize());
 		this.saveBinaryTreeInoderToArray(bt.getRoot(), array, 0);
 		array = this.sortArrayViaMergeSort(array);
@@ -1448,8 +1448,8 @@ public class Questions<E> {
 	}
 
 	public int saveBinaryTreeInoderToArray(
-			DataStructures.commonNodeDS.DoublyNode<Student> root,
-			DataStructures.commonNodeDS.DoublyNode<Student>[] array,
+			onlySrcCode.onlySrcCodeProject.geeksforgeeksdatastructure.DataStructures.commonNodeDS.DoublyNode<Student> root,
+			onlySrcCode.onlySrcCodeProject.geeksforgeeksdatastructure.DataStructures.commonNodeDS.DoublyNode<Student>[] array,
 			int arrayIndex) {
 		if (root == null) {
 			return arrayIndex;
@@ -1464,7 +1464,7 @@ public class Questions<E> {
 	}
 
 	public int saveSortedArrayIntoBinaryTreeViaInorderTraversal(
-			DataStructures.commonNodeDS.DoublyNode<Student> root,
+			onlySrcCode.onlySrcCodeProject.geeksforgeeksdatastructure.DataStructures.commonNodeDS.DoublyNode<Student> root,
 			Student[] dataArray, int arrayIndex) {
 		if (root == null) {
 			return arrayIndex;
@@ -1482,19 +1482,19 @@ public class Questions<E> {
 		return arrayIndex;
 	}
 
-	public DataStructures.commonNodeDS.DoublyNode<Student>[] sortArrayViaMergeSort(
-			DataStructures.commonNodeDS.DoublyNode<Student>[] array) {
+	public onlySrcCode.onlySrcCodeProject.geeksforgeeksdatastructure.DataStructures.commonNodeDS.DoublyNode<Student>[] sortArrayViaMergeSort(
+			onlySrcCode.onlySrcCodeProject.geeksforgeeksdatastructure.DataStructures.commonNodeDS.DoublyNode<Student>[] array) {
 		int lengthOfArray = array.length;
 		if (lengthOfArray == 1) {
 			return array;
 		}
 		int arrayLength1 = lengthOfArray / 2;
 		int arrayLength2 = lengthOfArray - lengthOfArray / 2;
-		DataStructures.commonNodeDS.DoublyNode<Student>[] array1 = (DataStructures.commonNodeDS.DoublyNode<Student>[]) Array
-				.newInstance(DataStructures.commonNodeDS.DoublyNode.class,
+		onlySrcCode.onlySrcCodeProject.geeksforgeeksdatastructure.DataStructures.commonNodeDS.DoublyNode<Student>[] array1 = (onlySrcCode.onlySrcCodeProject.geeksforgeeksdatastructure.DataStructures.commonNodeDS.DoublyNode<Student>[]) Array
+				.newInstance(onlySrcCode.onlySrcCodeProject.geeksforgeeksdatastructure.DataStructures.commonNodeDS.DoublyNode.class,
 						arrayLength1);
-		DataStructures.commonNodeDS.DoublyNode<Student>[] array2 = (DataStructures.commonNodeDS.DoublyNode<Student>[]) Array
-				.newInstance(DataStructures.commonNodeDS.DoublyNode.class,
+		onlySrcCode.onlySrcCodeProject.geeksforgeeksdatastructure.DataStructures.commonNodeDS.DoublyNode<Student>[] array2 = (onlySrcCode.onlySrcCodeProject.geeksforgeeksdatastructure.DataStructures.commonNodeDS.DoublyNode<Student>[]) Array
+				.newInstance(onlySrcCode.onlySrcCodeProject.geeksforgeeksdatastructure.DataStructures.commonNodeDS.DoublyNode.class,
 						arrayLength2);
 		;
 		for (int i = 0; i < lengthOfArray; i++) {
@@ -1507,16 +1507,16 @@ public class Questions<E> {
 		}
 		array1 = this.sortArrayViaMergeSort(array1);
 		array2 = this.sortArrayViaMergeSort(array2);
-		DataStructures.commonNodeDS.DoublyNode<Student>[] mergedArray = this
+		onlySrcCode.onlySrcCodeProject.geeksforgeeksdatastructure.DataStructures.commonNodeDS.DoublyNode<Student>[] mergedArray = this
 				.mergeSortedArrays(array1, array2);
 		return mergedArray;
 	}
 
-	public DataStructures.commonNodeDS.DoublyNode<Student>[] mergeSortedArrays(
-			DataStructures.commonNodeDS.DoublyNode<Student>[] array1,
-			DataStructures.commonNodeDS.DoublyNode<Student>[] array2) {
-		DataStructures.commonNodeDS.DoublyNode<Student>[] mergedArray = (DataStructures.commonNodeDS.DoublyNode<Student>[]) Array
-				.newInstance(DataStructures.commonNodeDS.DoublyNode.class,
+	public onlySrcCode.onlySrcCodeProject.geeksforgeeksdatastructure.DataStructures.commonNodeDS.DoublyNode<Student>[] mergeSortedArrays(
+			onlySrcCode.onlySrcCodeProject.geeksforgeeksdatastructure.DataStructures.commonNodeDS.DoublyNode<Student>[] array1,
+			onlySrcCode.onlySrcCodeProject.geeksforgeeksdatastructure.DataStructures.commonNodeDS.DoublyNode<Student>[] array2) {
+		onlySrcCode.onlySrcCodeProject.geeksforgeeksdatastructure.DataStructures.commonNodeDS.DoublyNode<Student>[] mergedArray = (onlySrcCode.onlySrcCodeProject.geeksforgeeksdatastructure.DataStructures.commonNodeDS.DoublyNode<Student>[]) Array
+				.newInstance(onlySrcCode.onlySrcCodeProject.geeksforgeeksdatastructure.DataStructures.commonNodeDS.DoublyNode.class,
 						array1.length + array2.length);
 		int i = 0;
 		int j = 0;
@@ -1771,7 +1771,7 @@ public class Questions<E> {
 			return;
 		}
 		System.out.print("\nGraph's BFT is:- ");
-		DataStructures.queue.arrayImpl.Queue<Integer> queue = new DataStructures.queue.arrayImpl.Queue<Integer>(
+		onlySrcCode.onlySrcCodeProject.geeksforgeeksdatastructure.DataStructures.queue.arrayImpl.Queue<Integer> queue = new onlySrcCode.onlySrcCodeProject.geeksforgeeksdatastructure.DataStructures.queue.arrayImpl.Queue<Integer>(
 				length);
 		queue.enQueue(statingPoint);
 		boolean[] isVisited = new boolean[length];
@@ -2008,20 +2008,20 @@ public class Questions<E> {
 	public void longestPathInDirectedAcyclicGraph(
 			AdjacencyWeightedListGraph acyclicGraph, int startingPoint) {
 		int totalVertices = acyclicGraph.getVertices();
-		java.util.Stack<DataStructures.graphs.Node> stack = new java.util.Stack<DataStructures.graphs.Node>();
+		java.util.Stack<onlySrcCode.onlySrcCodeProject.geeksforgeeksdatastructure.DataStructures.graphs.Node> stack = new java.util.Stack<onlySrcCode.onlySrcCodeProject.geeksforgeeksdatastructure.DataStructures.graphs.Node>();
 		boolean[] visited = new boolean[totalVertices];
 		visited[startingPoint]= true;
-		this.longestShortestPathInDirectedAcyclicGraphTopologicalSortUtil(acyclicGraph, new DataStructures.graphs.Node(startingPoint), stack, visited);
+		this.longestShortestPathInDirectedAcyclicGraphTopologicalSortUtil(acyclicGraph, new onlySrcCode.onlySrcCodeProject.geeksforgeeksdatastructure.DataStructures.graphs.Node(startingPoint), stack, visited);
 		
 		Integer[] maxDistance = new Integer[totalVertices];
 		maxDistance[startingPoint]=0;
 		while(!stack.isEmpty()){
-			DataStructures.graphs.Node sourceNode = stack.pop();
+			onlySrcCode.onlySrcCodeProject.geeksforgeeksdatastructure.DataStructures.graphs.Node sourceNode = stack.pop();
 			Integer sourceData = sourceNode.getData();
 			Integer sourceWeight = sourceNode.getWeight();
-			Iterator<DataStructures.graphs.Node> iterator = acyclicGraph.getAdLinkedLists()[sourceData].iterator();
+			Iterator<onlySrcCode.onlySrcCodeProject.geeksforgeeksdatastructure.DataStructures.graphs.Node> iterator = acyclicGraph.getAdLinkedLists()[sourceData].iterator();
 			while(iterator.hasNext()){
-				DataStructures.graphs.Node destinationNode = iterator.next();
+				onlySrcCode.onlySrcCodeProject.geeksforgeeksdatastructure.DataStructures.graphs.Node destinationNode = iterator.next();
 				Integer destinationData = destinationNode.getData();
 				Integer destinationWeight = destinationNode.getWeight();
 				if(maxDistance[destinationData] == null || maxDistance[destinationData] < maxDistance[sourceData]+destinationWeight){
@@ -2036,11 +2036,11 @@ public class Questions<E> {
 	}
 
 	private void longestShortestPathInDirectedAcyclicGraphTopologicalSortUtil(
-		AdjacencyWeightedListGraph acyclicGraph, DataStructures.graphs.Node startingNode,
-		java.util.Stack<DataStructures.graphs.Node> stack, boolean[] visited) {
-		Iterator<DataStructures.graphs.Node> iterator = acyclicGraph.getAdLinkedLists()[startingNode.getData()].iterator();
+		AdjacencyWeightedListGraph acyclicGraph, onlySrcCode.onlySrcCodeProject.geeksforgeeksdatastructure.DataStructures.graphs.Node startingNode,
+		java.util.Stack<onlySrcCode.onlySrcCodeProject.geeksforgeeksdatastructure.DataStructures.graphs.Node> stack, boolean[] visited) {
+		Iterator<onlySrcCode.onlySrcCodeProject.geeksforgeeksdatastructure.DataStructures.graphs.Node> iterator = acyclicGraph.getAdLinkedLists()[startingNode.getData()].iterator();
 		while(iterator.hasNext()){
-			DataStructures.graphs.Node node = iterator.next();
+			onlySrcCode.onlySrcCodeProject.geeksforgeeksdatastructure.DataStructures.graphs.Node node = iterator.next();
 			if(!visited[node.getData()]){
 				visited[node.getData()] = true;
 				this.longestShortestPathInDirectedAcyclicGraphTopologicalSortUtil(acyclicGraph, node, stack, visited);
@@ -2056,20 +2056,20 @@ public class Questions<E> {
 	public void shortestPathInDirectedAcyclicGraph(
 			AdjacencyWeightedListGraph acyclicGraph, int startingPoint) {
 		int totalVertices = acyclicGraph.getVertices();
-		java.util.Stack<DataStructures.graphs.Node> stack = new java.util.Stack<DataStructures.graphs.Node>();
+		java.util.Stack<onlySrcCode.onlySrcCodeProject.geeksforgeeksdatastructure.DataStructures.graphs.Node> stack = new java.util.Stack<onlySrcCode.onlySrcCodeProject.geeksforgeeksdatastructure.DataStructures.graphs.Node>();
 		boolean[] visited = new boolean[totalVertices];
 		visited[startingPoint]= true;
-		this.longestShortestPathInDirectedAcyclicGraphTopologicalSortUtil(acyclicGraph, new DataStructures.graphs.Node(startingPoint), stack, visited);
+		this.longestShortestPathInDirectedAcyclicGraphTopologicalSortUtil(acyclicGraph, new onlySrcCode.onlySrcCodeProject.geeksforgeeksdatastructure.DataStructures.graphs.Node(startingPoint), stack, visited);
 		
 		Integer[] minDistance = new Integer[totalVertices];
 		minDistance[startingPoint]=0;
 		while(!stack.isEmpty()){
-			DataStructures.graphs.Node sourceNode = stack.pop();
+			onlySrcCode.onlySrcCodeProject.geeksforgeeksdatastructure.DataStructures.graphs.Node sourceNode = stack.pop();
 			Integer sourceData = sourceNode.getData();
 			Integer sourceWeight = sourceNode.getWeight();
-			Iterator<DataStructures.graphs.Node> iterator = acyclicGraph.getAdLinkedLists()[sourceData].iterator();
+			Iterator<onlySrcCode.onlySrcCodeProject.geeksforgeeksdatastructure.DataStructures.graphs.Node> iterator = acyclicGraph.getAdLinkedLists()[sourceData].iterator();
 			while(iterator.hasNext()){
-				DataStructures.graphs.Node destinationNode = iterator.next();
+				onlySrcCode.onlySrcCodeProject.geeksforgeeksdatastructure.DataStructures.graphs.Node destinationNode = iterator.next();
 				Integer destinationData = destinationNode.getData();
 				Integer destinationWeight = destinationNode.getWeight();
 				if(minDistance[destinationData] == null || minDistance[destinationData] > minDistance[sourceData]+destinationWeight){
@@ -2099,15 +2099,15 @@ public class Questions<E> {
 		}
 		return isBipartite;
 	}
-	private boolean isBipartiteBFSUtil(AdjacencyWeightedListGraph adjacencyWeightedListGraph, int startingPoint,boolean[] visited,java.util.Queue<DataStructures.graphs.Node> queue,int[] colors){
+	private boolean isBipartiteBFSUtil(AdjacencyWeightedListGraph adjacencyWeightedListGraph, int startingPoint,boolean[] visited,java.util.Queue<onlySrcCode.onlySrcCodeProject.geeksforgeeksdatastructure.DataStructures.graphs.Node> queue,int[] colors){
 		if(queue == null){
-			queue = new java.util.LinkedList<DataStructures.graphs.Node>();
+			queue = new java.util.LinkedList<onlySrcCode.onlySrcCodeProject.geeksforgeeksdatastructure.DataStructures.graphs.Node>();
 		}
-		Iterator<DataStructures.graphs.Node> iterator = adjacencyWeightedListGraph.getAdLinkedLists()[startingPoint].iterator();
+		Iterator<onlySrcCode.onlySrcCodeProject.geeksforgeeksdatastructure.DataStructures.graphs.Node> iterator = adjacencyWeightedListGraph.getAdLinkedLists()[startingPoint].iterator();
 		int color = colors[startingPoint]==0?1:0;
 		
 		while(iterator.hasNext()){
-			DataStructures.graphs.Node node = iterator.next();
+			onlySrcCode.onlySrcCodeProject.geeksforgeeksdatastructure.DataStructures.graphs.Node node = iterator.next();
 			if(!visited[node.getData()]){
 				visited[node.getData()]= true;
 				colors[node.getData()] = color;
@@ -2118,7 +2118,7 @@ public class Questions<E> {
 			}
 		}
 		while(!queue.isEmpty()){
-			DataStructures.graphs.Node node = queue.poll();
+			onlySrcCode.onlySrcCodeProject.geeksforgeeksdatastructure.DataStructures.graphs.Node node = queue.poll();
 			if(!this.isBipartiteBFSUtil(adjacencyWeightedListGraph, node.getData(), visited,queue,colors)){
 				return false;
 			}
@@ -2455,7 +2455,7 @@ public class Questions<E> {
 		}
 		int matchedWordIndex = -1;
 		int wordLength = word.length();
-		DataStructures.trie.Node tempNode = dictionary.getRoot();
+		onlySrcCode.onlySrcCodeProject.geeksforgeeksdatastructure.DataStructures.trie.Node tempNode = dictionary.getRoot();
 		String subString = null;
 		for (int i = 0; i < wordLength; i++) {
 			
@@ -3748,7 +3748,7 @@ public class Questions<E> {
 	}
 	////////////////////////////////////// *********************** Dynamic programming ends here *******************************
 	
-	public int getHeightOfBST(DataStructures.splayTree.Node temp) {
+	public int getHeightOfBST(onlySrcCode.onlySrcCodeProject.geeksforgeeksdatastructure.DataStructures.splayTree.Node temp) {
 		int height = 0;
 		if (temp == null) {
 			return height;
@@ -3757,7 +3757,7 @@ public class Questions<E> {
 		return height;
 	}
 
-	private int getHeightOfBST(DataStructures.splayTree.Node temp, int height) {
+	private int getHeightOfBST(onlySrcCode.onlySrcCodeProject.geeksforgeeksdatastructure.DataStructures.splayTree.Node temp, int height) {
 		// int height = 0;
 		// Node temp = this.root;
 		if (temp.getLeft() == null && temp.getRight() == null) {
@@ -3772,7 +3772,7 @@ public class Questions<E> {
 		}
 		return Math.max(heightLeft, heightRight);
 	}
-	public void printBSTStructure(int oneDataSizeInSpaceCount, DataStructures.splayTree.Node temp){
+	public void printBSTStructure(int oneDataSizeInSpaceCount, onlySrcCode.onlySrcCodeProject.geeksforgeeksdatastructure.DataStructures.splayTree.Node temp){
 		if(temp == null){
 			System.out.println("BST is empty!");
 			return;
@@ -3835,7 +3835,7 @@ public class Questions<E> {
 		}
 	}
 	
-	public void printBSTStructure(DataStructures.splayTree.Node temp){
+	public void printBSTStructure(onlySrcCode.onlySrcCodeProject.geeksforgeeksdatastructure.DataStructures.splayTree.Node temp){
 		if(temp == null){
 			System.out.println("BST is empty!");
 			return;
@@ -3878,7 +3878,7 @@ public class Questions<E> {
 	
 	private class NodeLevelSpace {
 		private int level;
-		private DataStructures.splayTree.Node node;
+		private onlySrcCode.onlySrcCodeProject.geeksforgeeksdatastructure.DataStructures.splayTree.Node node;
 		private int nullSpace = 0;
 		public int getLevel() {
 			return level;
@@ -3888,11 +3888,11 @@ public class Questions<E> {
 			this.level = level;
 		}
 
-		public DataStructures.splayTree.Node getNode() {
+		public onlySrcCode.onlySrcCodeProject.geeksforgeeksdatastructure.DataStructures.splayTree.Node getNode() {
 			return node;
 		}
 
-		public void setNode(DataStructures.splayTree.Node node) {
+		public void setNode(onlySrcCode.onlySrcCodeProject.geeksforgeeksdatastructure.DataStructures.splayTree.Node node) {
 			this.node = node;
 		}
 	
@@ -3904,7 +3904,7 @@ public class Questions<E> {
 			this.nullSpace = nullSpace;
 		}
 
-		public NodeLevelSpace(DataStructures.splayTree.Node node, int level, int nullSpace) {
+		public NodeLevelSpace(onlySrcCode.onlySrcCodeProject.geeksforgeeksdatastructure.DataStructures.splayTree.Node node, int level, int nullSpace) {
 			this.node = node;
 			this.level = level;
 			this.nullSpace = nullSpace;
@@ -3914,7 +3914,7 @@ public class Questions<E> {
 	
 	private class NodeLevel {
 		private int level;
-		private DataStructures.splayTree.Node node;
+		private onlySrcCode.onlySrcCodeProject.geeksforgeeksdatastructure.DataStructures.splayTree.Node node;
 
 		public int getLevel() {
 			return level;
@@ -3924,15 +3924,15 @@ public class Questions<E> {
 			this.level = level;
 		}
 
-		public DataStructures.splayTree.Node getNode() {
+		public onlySrcCode.onlySrcCodeProject.geeksforgeeksdatastructure.DataStructures.splayTree.Node getNode() {
 			return node;
 		}
 
-		public void setNode(DataStructures.splayTree.Node node) {
+		public void setNode(onlySrcCode.onlySrcCodeProject.geeksforgeeksdatastructure.DataStructures.splayTree.Node node) {
 			this.node = node;
 		}
 
-		public NodeLevel(DataStructures.splayTree.Node node, int level) {
+		public NodeLevel(onlySrcCode.onlySrcCodeProject.geeksforgeeksdatastructure.DataStructures.splayTree.Node node, int level) {
 			this.node = node;
 			this.level = level;
 		}

@@ -1,4 +1,4 @@
-package DataStructures.commonNodeDS;
+package onlySrcCode.onlySrcCodeProject.geeksforgeeksdatastructure.DataStructures.commonNodeDS;
 
 public class LeftRightChild {
 	private int leftChild = 0;

@@ -1,4 +1,4 @@
-package DataStructures.trie;
+package onlySrcCode.onlySrcCodeProject.geeksforgeeksdatastructure.DataStructures.trie;
 
 import java.util.ArrayList;
 

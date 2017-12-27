@@ -1,4 +1,4 @@
-package binarySearchTree;
+package onlySrcCode.onlySrcCodeProject.dataStructureAndAlgorithm.binarySearchTree;
 
 import javax.swing.plaf.synth.SynthOptionPaneUI;
 

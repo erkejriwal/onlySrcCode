@@ -1,4 +1,4 @@
-package companies.samsung;
+package onlySrcCode.onlySrcCodeProject.geeksforgeeksdatastructure.companies.samsung;
 
 import java.util.Arrays;
 import java.util.HashSet;

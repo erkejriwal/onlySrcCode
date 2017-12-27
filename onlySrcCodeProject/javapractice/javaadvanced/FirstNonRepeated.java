@@ -1,4 +1,4 @@
-package javapractice.javaadvanced;
+package onlySrcCode.onlySrcCodeProject.javapractice.javaadvanced;
 
 import java.util.HashMap;
 import java.util.Scanner;

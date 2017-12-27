@@ -1,4 +1,4 @@
-package companies.amazon;
+package onlySrcCode.onlySrcCodeProject.geeksforgeeksdatastructure.companies.amazon;
 
 import java.util.HashMap;
 import java.util.Iterator;
@@ -8,12 +8,12 @@ import java.util.Queue;
 import java.util.TreeMap;
 import java.util.TreeSet;
 
-import DataStructures.binaryTree.Student;
-import DataStructures.commonNodeDS.BinarySearchTree;
-import DataStructures.commonNodeDS.BinaryTree;
-import DataStructures.commonNodeDS.DoublyLinkedList;
-import DataStructures.commonNodeDS.DoublyNode;
-import DataStructures.commonNodeDS.Node;
+import onlySrcCode.onlySrcCodeProject.geeksforgeeksdatastructure.DataStructures.binaryTree.Student;
+import onlySrcCode.onlySrcCodeProject.geeksforgeeksdatastructure.DataStructures.commonNodeDS.BinarySearchTree;
+import onlySrcCode.onlySrcCodeProject.geeksforgeeksdatastructure.DataStructures.commonNodeDS.BinaryTree;
+import onlySrcCode.onlySrcCodeProject.geeksforgeeksdatastructure.DataStructures.commonNodeDS.DoublyLinkedList;
+import onlySrcCode.onlySrcCodeProject.geeksforgeeksdatastructure.DataStructures.commonNodeDS.DoublyNode;
+import onlySrcCode.onlySrcCodeProject.geeksforgeeksdatastructure.DataStructures.commonNodeDS.Node;
 
 public class AmazonQuestions {
 	/**

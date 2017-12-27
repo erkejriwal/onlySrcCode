@@ -1,6 +1,6 @@
-package javatpoint.pack2;
+package onlySrcCode.onlySrcCodeProject.javatpoint.pack2;
 
-import javatpoint.pack1.Shape;
+import onlySrcCode.onlySrcCodeProject.javatpoint.pack1.Shape;
 
 public class Triangle {
 	public Triangle(){

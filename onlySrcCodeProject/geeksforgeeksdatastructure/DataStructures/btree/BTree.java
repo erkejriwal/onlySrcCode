@@ -1,6 +1,6 @@
-package DataStructures.btree;
+package onlySrcCode.onlySrcCodeProject.geeksforgeeksdatastructure.DataStructures.btree;
 
-import DataStructures.btree.BTreeNode;
+import onlySrcCode.onlySrcCodeProject.geeksforgeeksdatastructure.DataStructures.btree.BTreeNode;
 
 public class BTree {
 	private BTreeNode root;

@@ -1,4 +1,4 @@
-package DataStructures.commonNodeDS;
+package onlySrcCode.onlySrcCodeProject.geeksforgeeksdatastructure.DataStructures.commonNodeDS;
 
 public class Space {
 	private boolean isNullSpace = false;

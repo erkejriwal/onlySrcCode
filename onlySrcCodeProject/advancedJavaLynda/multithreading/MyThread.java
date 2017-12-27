@@ -1,4 +1,4 @@
-package advancedJavaLynda.multithreading;
+package onlySrcCode.onlySrcCodeProject.advancedJavaLynda.multithreading;
 
 public class MyThread extends Thread {
 	private int threadId;

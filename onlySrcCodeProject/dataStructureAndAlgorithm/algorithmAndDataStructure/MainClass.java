@@ -1,10 +1,10 @@
-package algorithmAndDataStructure;
+package onlySrcCode.onlySrcCodeProject.dataStructureAndAlgorithm.algorithmAndDataStructure;
 
 import java.util.Arrays;
 
-import binarySearchTree.BinarySearchTree;
-import linkedList.DoublyEndedLinkedList;
-import linkedList.LinkedList;
+import onlySrcCode.onlySrcCodeProject.dataStructureAndAlgorithm.binarySearchTree.BinarySearchTree;
+import onlySrcCode.onlySrcCodeProject.dataStructureAndAlgorithm.linkedList.DoublyEndedLinkedList;
+import onlySrcCode.onlySrcCodeProject.dataStructureAndAlgorithm.linkedList.LinkedList;
 
 public class MainClass {
 

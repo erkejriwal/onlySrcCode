@@ -1,6 +1,6 @@
-package DataStructures.queue;
+package onlySrcCode.onlySrcCodeProject.geeksforgeeksdatastructure.DataStructures.queue;
 
-import DataStructures.stack.singlyLinkListStack.Stack;
+import onlySrcCode.onlySrcCodeProject.geeksforgeeksdatastructure.DataStructures.stack.singlyLinkListStack.Stack;
 
 public class QueueUsingStack<E> {
 	private Stack<E> stack1;

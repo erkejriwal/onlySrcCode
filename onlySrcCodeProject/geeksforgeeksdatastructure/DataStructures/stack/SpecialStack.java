@@ -1,4 +1,4 @@
-package DataStructures.stack;
+package onlySrcCode.onlySrcCodeProject.geeksforgeeksdatastructure.DataStructures.stack;
 
 public class SpecialStack {
 	private Stack<Integer> stack;

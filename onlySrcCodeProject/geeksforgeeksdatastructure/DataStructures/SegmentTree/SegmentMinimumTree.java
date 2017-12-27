@@ -1,4 +1,4 @@
-package DataStructures.SegmentTree;
+package onlySrcCode.onlySrcCodeProject.geeksforgeeksdatastructure.DataStructures.SegmentTree;
 
 public class SegmentMinimumTree {
 	private int[] segmentArray;

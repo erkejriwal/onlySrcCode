@@ -1,4 +1,4 @@
-package javatpoint.pack1;
+package onlySrcCode.onlySrcCodeProject.javatpoint.pack1;
 
 public class Shape implements Cloneable{
 	public T t;

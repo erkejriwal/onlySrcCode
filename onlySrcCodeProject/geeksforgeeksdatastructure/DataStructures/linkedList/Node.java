@@ -1,4 +1,4 @@
-package DataStructures.linkedList;
+package onlySrcCode.onlySrcCodeProject.geeksforgeeksdatastructure.DataStructures.linkedList;
 
 public class Node {
 	private int data;

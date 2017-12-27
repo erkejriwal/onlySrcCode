@@ -1,3 +1,5 @@
+package onlySrcCode.onlySrcCodeProject.geeksforgeeksdatastructure;
+
 class MinHeap<E extends Comparable<E>> {
 	private DoublyNode<E> root;
 	private int size = 0;

@@ -1,4 +1,4 @@
-package companies.groupon;
+package onlySrcCode.onlySrcCodeProject.geeksforgeeksdatastructure.companies.groupon;
 
 import java.math.BigInteger;
 import java.util.HashMap;

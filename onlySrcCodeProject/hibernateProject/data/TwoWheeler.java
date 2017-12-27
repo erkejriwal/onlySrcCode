@@ -1,4 +1,4 @@
-package data;
+package onlySrcCode.onlySrcCodeProject.hibernateProject.data;
 
 import javax.persistence.Entity;
 

@@ -1,4 +1,4 @@
-package innovation.linkedListMergedSortViaStack;
+package onlySrcCode.onlySrcCodeProject.geeksforgeeksdatastructure.innovation.linkedListMergedSortViaStack;
 
 
 public class MainClass {

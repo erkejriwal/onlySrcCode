@@ -1,8 +1,8 @@
-package DataStructures.commonNodeDS;
+package onlySrcCode.onlySrcCodeProject.geeksforgeeksdatastructure.DataStructures.commonNodeDS;
 
 import java.lang.reflect.Array;
 
-import DataStructures.binaryTree.Comparable;
+import onlySrcCode.onlySrcCodeProject.geeksforgeeksdatastructure.DataStructures.binaryTree.Comparable;
 
 public class MinHeap <E extends Comparable<E>> {
 	private E[] heapArray;

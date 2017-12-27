@@ -1,4 +1,4 @@
-package DataStructures.queue.arrayImpl;
+package onlySrcCode.onlySrcCodeProject.geeksforgeeksdatastructure.DataStructures.queue.arrayImpl;
 
 public class KQueues<E> {
 	private int[] front;

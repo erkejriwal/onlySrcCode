@@ -1,4 +1,4 @@
-package DataStructures.linkedList;
+package onlySrcCode.onlySrcCodeProject.geeksforgeeksdatastructure.DataStructures.linkedList;
 
 import java.util.Stack;
 
@@ -546,10 +546,10 @@ public class LinkedList {
 	 * Detect and Remove Loop in a Linked List Write a function
 	 * detectAndRemoveLoop() that checks whether a given Linked List contains
 	 * loop and if loop is present then removes the loop and returns true. And
-	 * if the list doesn’t contain loop then returns false.
+	 * if the list doesnï¿½t contain loop then returns false.
 	 * 
 	 * We can also use Floyd Cycle Detection algorithm to detect and remove the
-	 * loop. In the Floyd’s algo, the slow and fast pointers meet at a loop
+	 * loop. In the Floydï¿½s algo, the slow and fast pointers meet at a loop
 	 * node.
 	 * 
 	 * @return is loop detected and removed

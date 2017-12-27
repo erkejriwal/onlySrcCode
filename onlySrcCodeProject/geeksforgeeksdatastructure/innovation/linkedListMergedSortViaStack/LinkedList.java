@@ -1,8 +1,8 @@
-package innovation.linkedListMergedSortViaStack;
+package onlySrcCode.onlySrcCodeProject.geeksforgeeksdatastructure.innovation.linkedListMergedSortViaStack;
 
 
-import DataStructures.linkedList.Node;
-import DataStructures.stack.singlyLinkListStack.Stack;
+import onlySrcCode.onlySrcCodeProject.geeksforgeeksdatastructure.DataStructures.linkedList.Node;
+import onlySrcCode.onlySrcCodeProject.geeksforgeeksdatastructure.DataStructures.stack.singlyLinkListStack.Stack;
 
 
 /**

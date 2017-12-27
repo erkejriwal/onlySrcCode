@@ -1,4 +1,4 @@
-package javatpoint.threadExample;
+package onlySrcCode.onlySrcCodeProject.javatpoint.threadExample;
 
 public class ThreadExample {
 

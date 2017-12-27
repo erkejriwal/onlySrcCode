@@ -1,5 +1,5 @@
-package DataStructures.commonNodeDS;
-import DataStructures.binaryTree.Comparable;;
+package onlySrcCode.onlySrcCodeProject.geeksforgeeksdatastructure.DataStructures.commonNodeDS;
+import onlySrcCode.onlySrcCodeProject.geeksforgeeksdatastructure.DataStructures.binaryTree.Comparable;;
 /**
  * use another AVL which is AVLBinarySearchTree because this class was created 
  * to practice only and another class uses better method to accomplish things

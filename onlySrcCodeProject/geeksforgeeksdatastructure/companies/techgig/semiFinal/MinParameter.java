@@ -1,9 +1,9 @@
-package companies.techgig.semiFinal;
+package onlySrcCode.onlySrcCodeProject.geeksforgeeksdatastructure.companies.techgig.semiFinal;
 
 import java.util.Iterator;
 import java.util.LinkedList;
 
-import companies.techgig.semiFinal.MinParameterRectangles.Rectangle;
+import onlySrcCode.onlySrcCodeProject.geeksforgeeksdatastructure.companies.techgig.semiFinal.MinParameterRectangles.Rectangle;
 
 public class MinParameter {
 

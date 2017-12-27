@@ -1,4 +1,4 @@
-package advancedJavaLynda;
+package onlySrcCode.onlySrcCodeProject.advancedJavaLynda;
 
 import java.io.BufferedReader;
 import java.io.BufferedWriter;
@@ -32,10 +32,10 @@ import java.util.Scanner;
 import javax.jws.Oneway;
 import javax.print.attribute.standard.MediaSize.Other;
 
-import advancedJavaLynda.data.MyFileFinder;
-import advancedJavaLynda.data.MyFileVisitor;
-import advancedJavaLynda.data.OliveJar;
-import advancedJavaLynda.multithreading.MultiThreading;
+import onlySrcCode.onlySrcCodeProject.advancedJavaLynda.data.MyFileFinder;
+import onlySrcCode.onlySrcCodeProject.advancedJavaLynda.data.MyFileVisitor;
+import onlySrcCode.onlySrcCodeProject.advancedJavaLynda.data.OliveJar;
+import onlySrcCode.onlySrcCodeProject.advancedJavaLynda.multithreading.MultiThreading;
 
 public class Main {
 

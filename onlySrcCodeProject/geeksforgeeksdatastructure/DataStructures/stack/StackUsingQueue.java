@@ -1,6 +1,6 @@
-package DataStructures.stack;
+package onlySrcCode.onlySrcCodeProject.geeksforgeeksdatastructure.DataStructures.stack;
 
-import DataStructures.queue.linkedListImpl.Queue;
+import onlySrcCode.onlySrcCodeProject.geeksforgeeksdatastructure.DataStructures.queue.linkedListImpl.Queue;
 
 /**
  * http://www.geeksforgeeks.org/implement-stack-using-queue/

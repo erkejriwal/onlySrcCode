@@ -1,4 +1,4 @@
-package companies.amazon.interview;
+package onlySrcCode.onlySrcCodeProject.geeksforgeeksdatastructure.companies.amazon.interview;
 
 import java.util.Scanner;
 

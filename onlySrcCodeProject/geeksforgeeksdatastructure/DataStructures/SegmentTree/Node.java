@@ -1,4 +1,4 @@
-package DataStructures.SegmentTree;
+package onlySrcCode.onlySrcCodeProject.geeksforgeeksdatastructure.DataStructures.SegmentTree;
 
 public class Node {
 	private int data;

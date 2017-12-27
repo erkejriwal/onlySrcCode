@@ -1,4 +1,4 @@
-package javatpoint.nashorn;
+package onlySrcCode.onlySrcCodeProject.javatpoint.nashorn;
 
 import java.io.FileNotFoundException;
 import java.io.FileReader;

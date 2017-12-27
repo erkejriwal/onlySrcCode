@@ -1,10 +1,10 @@
-package companies.samsung;
+package onlySrcCode.onlySrcCodeProject.geeksforgeeksdatastructure.companies.samsung;
 
 import java.util.HashMap;
 import java.util.Map;
 import java.util.Scanner;
 
-import companies.samsung.FibonacciNosGreatestCommonDivisor.SegmentTree;
+import onlySrcCode.onlySrcCodeProject.geeksforgeeksdatastructure.companies.samsung.FibonacciNosGreatestCommonDivisor.SegmentTree;
 
 public class FibonacciNosGreatestCommonDivisorClearedCode2 {
 

@@ -1,4 +1,4 @@
-package javapractice.main; 
+package onlySrcCode.onlySrcCodeProject.javapractice.main;
 
 import java.util.ArrayList;
 import java.util.BitSet;
@@ -14,7 +14,7 @@ import java.util.SortedSet;
 import java.util.TreeMap;
 import java.util.Vector;
 
-import javapractice.javaadvanced.EnumerationTester;
+import onlySrcCode.onlySrcCodeProject.javapractice.javaadvanced.EnumerationTester;
 
 public class main {
 
